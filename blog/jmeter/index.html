@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>QA Tool Review: JMeter | Schuetzler.net</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="QA Tool Review: JMeter" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Description Apache JMeter is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions." />
+<meta property="og:description" content="Description Apache JMeter is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions." />
+<link rel="canonical" href="/blog/jmeter/" />
+<meta property="og:url" content="/blog/jmeter/" />
+<meta property="og:site_name" content="Schuetzler.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-01-02T00:00:00+00:00" />
+<script type="application/ld+json">
+{"description":"Description Apache JMeter is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/jmeter/"},"@type":"BlogPosting","url":"/blog/jmeter/","headline":"QA Tool Review: JMeter","dateModified":"2010-01-02T00:00:00+00:00","datePublished":"2010-01-02T00:00:00+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Schuetzler.net" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Schuetzler.net</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">QA Tool Review: JMeter</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2010-01-02T00:00:00+00:00" itemprop="datePublished">Jan 2, 2010
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 style="text-align: center;"><span style="font-weight: normal;">Description</span></h1>
+<p><a href="http://jakarta.apache.org/jmeter/">Apache JMeter</a> is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.</p>
+
+<p>Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load.</p>
+<h1 style="text-align: center;">Overview</h1>
+<h2>Pros</h2>
+<ul>
+	<li>Free &amp; Open Source</li>
+	<li>Distributed testing</li>
+</ul>
+<h2>Cons</h2>
+<ul>
+	<li>A little buggy</li>
+	<li>Reporting is lacking</li>
+</ul>
+<h2>Pricing</h2>
+<ul>
+	<li>Free and Open Source</li>
+	<li>Programmed in Java</li>
+</ul>
+<h1 style="text-align: center;">Ease of Use</h1>
+<h2>Ease of Installation</h2>
+<p>Install Java, download the zip file and unzip it. Run the .bat file to run the program and you’re set.<!--more-->
+<strong> </strong></p>
+<h2>Setting up a Test</h2>
+<p>Add a thread group to the test plan. Configure the thread group by determining ramp-up period and how many threads you want running at the end (see Figure 1). Set up a proxy to record your test (Right-click Workbench à Add à Non-test elements à HTTP Proxy server). After the proxy is set up you can tell your browser to route requests through the proxy (default localhost:8080). The proxy will record all requests and store them in the Thread Group as samplers. Add a listener to record your test results and you’re good to go. Overall it’s a very straightforward, well-documented process.<strong> </strong></p>
+
+<p><a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled.png"><img class="alignnone size-full wp-image-51" title="Creating a Thread group" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled.png" alt="" width="571" height="349" /></a></p>
+
+<p>Figure 1 - Create thread group</p>
+<h2>Running a Test</h2>
+<p>Run à Start or Ctrl+R. Bam!<strong> </strong></p>
+<h2>Technical Knowledge Needed</h2>
+<p>Very little technical knowledge is needed. It does require the ability to learn how to do something from the documentation since it is not very intuitive.<strong> </strong></p>
+<h2>Platforms</h2>
+<p>JMeter is a Java program, and thus runs wherever Java can. It requires Java 1.4 or greater.<strong> </strong></p>
+<h1 style="text-align: center;"><strong>Functionality</strong></h1>
+<h2>Recording a test</h2>
+<p>JMeter provides a proxy server through which you can record tests (see Figure 2). It’s fairly simple to set up, and it does a good job recording every request sent through it. You can choose which kinds of files to include or exclude in the recording, which is great because you probably don’t need to record all .gif, .png, etc. files as separate requests. Set it up by right-clicking the Workbench and select Add à Non-test elements à HTTP Proxy Server. It can then be configured to group the samplers however you want, and add the instructions for which URL patterns to include or exclude. See Figure 2 for an example set up. Once it is set up, just click start and tell your web browser to direct traffic through the proxy. The samplers will be created and you are well on your way to having your dream test.<strong> </strong></p>
+
+<p>Because it uses a proxy, it cannot detect HTTPS traffic, so any secure requests will have to be created manually.</p>
+
+<p><a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled2.png"><img class="alignnone size-full wp-image-52" title="Setting up a Proxy Server" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled2.png" alt="" width="602" height="382" /></a></p>
+
+<p>Figure 2 - Set up a Proxy Server</p>
+<h2>Scripting</h2>
+<p>JMeter supports BeanShell scripting. I don’t know anything about it, so I can’t really rate its ability, but supposedly it exists.<strong> </strong></p>
+<h2>Reporting</h2>
+<p>There are several reports that can be viewed within JMeter that provide a moderate level of detail. The data listed below can be recorded in a CSV file after each test. The built-in reports you can view in the GUI during test runs are lacking. Some of them don’t work. Some are useful (see Figure 3). The list below includes all information available in the CSV file:<strong> </strong></p>
+<ul>
+	<li>Start time (ms)</li>
+	<li>Load time (ms)</li>
+	<li>Sampler name</li>
+	<li>Response code</li>
+	<li>Response message</li>
+	<li>Thread name</li>
+	<li>Content type (e.g. text, bin)</li>
+	<li>Success</li>
+	<li>Size in bytes</li>
+	<li>Latency</li>
+</ul>
+<p><a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled3.png"><img class="alignnone size-full wp-image-53" title="Distribution Graph" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled3.png" alt="" width="617" height="392" /></a></p>
+
+<p>Figure 3 - Distribution Graph</p>
+<h3>Trend Reporting</h3>
+<p>JMeter’s listeners do several things, including trend graphing (see Figure 4). In addition, the exported CSV file contains detailed information for each request, including the time that the request started and how long it took. From this, with some Excel magic, it would be possible to create a trend graph.</p>
+
+<p><a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled4.png"><img class="alignnone size-full wp-image-54" title="Trend Graph" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled4.png" alt="" width="564" height="358" /></a></p>
+
+<p>Figure 4 - Trend graph</p>
+<h3>Integration</h3>
+<p>The only integration JMeter supports is exporting test results to CSV.</p>
+<h2>Data Functions</h2>
+<p>Using a CSV Data Set config element, you can easily create user defined variables using the information from a CSV file (See Figure 5). <strong> </strong></p>
+
+<p><a href="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled5.png"><img class="alignnone size-full wp-image-55" title="CSV Data Set Config" src="http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled5.png" alt="" width="589" height="406" /></a></p>
+
+<p>Figure 5. CSV Data Set Config</p>
+
+<p><strong> </strong></p>
+<h2>Load Generation / Distributed Load Generation</h2>
+<p>JMeter offers distributed testing. I have not tested it, but from reviews it appears that in order to use multiple load generation tools, the GUI must be used. However, it is possible to run tests on one computer without the GUI and just record the results to a file. This minimizes system resource use and allows you to generate a higher load from one machine.<strong></strong></p>
+<h2>Documentation</h2>
+<p>The documentation for JMeter is extensive. The <a href="http://jakarta.apache.org/jmeter/">JMeter website</a> has a ton of documentation, great tutorials, a great user manual, and clear Javadocs. There are also many other website with great tutorials and documentation for getting started with JMeter.<strong></strong></p>
+<h2>User Interface</h2>
+<p>Typical Java Swing GUI. Ugly but functional.<strong></strong></p>
+<h2>Performance v. Stress Testing</h2>
+<p>JMeter offers both constant-load performance testing and ramp-up stress testing. The tests are set up to run for a certain number of repetitions. <strong></strong></p>
+<h2>Bugs/Weirdness</h2>
+<ul>
+	<li>Excel problem with JMeter CSV files: When saving test results to a csv, Excel likes to show big numbers (like the start time) in engineering notation (i.e., 1.24E10). If you open the file and save it, it will save it in engineering notation. When you open the file again, several significant digits will be lost, making the start time data essentially useless. This can be overcome by changing the stuff from a CSV to XLSX or by formatting the number as a regular number.</li>
+	<li>You can’t save both the Test Plan and WorkBench at the same time. You have to save each separately. I also couldn’t get them to open together. I could open either the workbench or the test plan file, but if I tried to do both, the second one I opened would overwrite the first.</li>
+</ul>
+<h1 style="text-align: center;">Project Info</h1>
+<h2>History</h2>
+<p>Stefano Mazzocchi of the Apache Software Foundation was the original developer of JMeter. He wrote it primarily to test the performance of Apache JServ (a project that has since been replaced by the Apache Tomcat project). JMeter has been redesigned to enhance the GUI and to add functional-testing capabilities.</p>
+<h2>Frequency of Releases</h2>
+<p>JMeter has a new release approximately 1-2 times per year. Most of these releases are minor bug-fix versions. The most recent version (2.3.4) was released in June, 2009.</p>
+
+<p><a href="http://www.ohloh.net/p/jmeter">Ohloh.net</a> says that JMeter is experiencing decreasing year-over-year development activity.</p>
+<h2>Active Forums</h2>
+<h3>Official Forums</h3>
+<ul>
+	<li><a href="http://mail-archives.apache.org/mod_mbox/jakarta-jmeter-user/">JMeter user mailing list archive</a></li>
+</ul>
+<h3>Unofficial Forums</h3>
+<ul>
+	<li><a href="http://www.nabble.com/JMeter-f296.html">Nabble JMeter Forum</a></li>
+	<li><a href="http://www.sqaforums.com/postlist.php?Board=UBB54">SQA Forums: JMeter</a></li>
+</ul>
+<h2>Company URL</h2>
+<p><a href="http://jakarta.apache.org">http://jakarta.apache.org</a><strong></strong></p>
+
+  </div><a class="u-url" href="/blog/jmeter/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Schuetzler.net</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Schuetzler.net</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Omaha metropolitan area.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

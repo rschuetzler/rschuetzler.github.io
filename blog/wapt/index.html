@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>QA Tool Review: WAPT 5.0 | Schuetzler.net</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="QA Tool Review: WAPT 5.0" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Okay, I decided to get the last of the QA tool reviews out on the site so I don’t have to think about them any more. Here it is: Description WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the company website that allows full functionality with the restriction of 20 virtual users. Overview Pros Very easy to record and run tests Decent reporting Cons Not Free No scripting capability Doesn’t do well recording AJAX calls Pricing Standard license - $350 with price per license decreasing with volume No distributed load generation Unlimited VUs WAPT Pro - $700 includes 1 standard license and 2 load agents Additional Load Agents - $200 Provides distributed load generation Ease of Use Ease of Installation WAPT was super easy to install. It installs just as easily as any Windows program. The installer puts everything where it needs to be and you’re set to go. Setting up a Test Setting up a test is as simple as starting to record, then going to the sites you want to test. WAPT records all your activity. You then organize it into Initial, Main, and Final actions. The initial actions are executed once per VU per round. These would include things like logging in. The main actions are completed as many times as you tell it to in the virtual user profile. Final actions are completed after all iterations of the main actions." />
+<meta property="og:description" content="Okay, I decided to get the last of the QA tool reviews out on the site so I don’t have to think about them any more. Here it is: Description WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the company website that allows full functionality with the restriction of 20 virtual users. Overview Pros Very easy to record and run tests Decent reporting Cons Not Free No scripting capability Doesn’t do well recording AJAX calls Pricing Standard license - $350 with price per license decreasing with volume No distributed load generation Unlimited VUs WAPT Pro - $700 includes 1 standard license and 2 load agents Additional Load Agents - $200 Provides distributed load generation Ease of Use Ease of Installation WAPT was super easy to install. It installs just as easily as any Windows program. The installer puts everything where it needs to be and you’re set to go. Setting up a Test Setting up a test is as simple as starting to record, then going to the sites you want to test. WAPT records all your activity. You then organize it into Initial, Main, and Final actions. The initial actions are executed once per VU per round. These would include things like logging in. The main actions are completed as many times as you tell it to in the virtual user profile. Final actions are completed after all iterations of the main actions." />
+<link rel="canonical" href="/blog/wapt/" />
+<meta property="og:url" content="/blog/wapt/" />
+<meta property="og:site_name" content="Schuetzler.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-03-19T00:00:00+00:00" />
+<script type="application/ld+json">
+{"description":"Okay, I decided to get the last of the QA tool reviews out on the site so I don’t have to think about them any more. Here it is: Description WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the company website that allows full functionality with the restriction of 20 virtual users. Overview Pros Very easy to record and run tests Decent reporting Cons Not Free No scripting capability Doesn’t do well recording AJAX calls Pricing Standard license - $350 with price per license decreasing with volume No distributed load generation Unlimited VUs WAPT Pro - $700 includes 1 standard license and 2 load agents Additional Load Agents - $200 Provides distributed load generation Ease of Use Ease of Installation WAPT was super easy to install. It installs just as easily as any Windows program. The installer puts everything where it needs to be and you’re set to go. Setting up a Test Setting up a test is as simple as starting to record, then going to the sites you want to test. WAPT records all your activity. You then organize it into Initial, Main, and Final actions. The initial actions are executed once per VU per round. These would include things like logging in. The main actions are completed as many times as you tell it to in the virtual user profile. Final actions are completed after all iterations of the main actions.","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/wapt/"},"@type":"BlogPosting","url":"/blog/wapt/","headline":"QA Tool Review: WAPT 5.0","dateModified":"2010-03-19T00:00:00+00:00","datePublished":"2010-03-19T00:00:00+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Schuetzler.net" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Schuetzler.net</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">QA Tool Review: WAPT 5.0</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2010-03-19T00:00:00+00:00" itemprop="datePublished">Mar 19, 2010
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Okay, I decided to get the last of the QA tool reviews out on the site so I don’t have to think about them any more. Here it is:</p>
+<h2 style="text-align: center;">Description</h2>
+<p>WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the <a href="http://www.loadtestingtool.com/download.shtml">company website</a> that allows full functionality with the restriction of 20 virtual users.</p>
+<h2 style="text-align: center;">Overview</h2>
+<h3>Pros</h3>
+<ul>
+	<li>Very easy to record and run tests</li>
+	<li>Decent reporting</li>
+</ul>
+<h3>Cons</h3>
+<ul>
+	<li>Not Free</li>
+	<li>No scripting capability</li>
+	<li>Doesn’t do well recording AJAX calls</li>
+</ul>
+<h3>Pricing</h3>
+<ul>
+	<li>Standard license - $350 with price per license decreasing with volume
+<ul>
+	<li>No distributed load generation</li>
+	<li>Unlimited VUs</li>
+</ul>
+</li>
+	<li>WAPT Pro - $700 includes 1 standard license and 2 load agents
+<ul>
+	<li>Additional Load Agents - $200</li>
+	<li>Provides distributed load generation</li>
+</ul>
+</li>
+</ul>
+<h2 style="text-align: center;">Ease of Use</h2>
+<h3>Ease of Installation</h3>
+<p>WAPT was super easy to install. It installs just as easily as any Windows program. The installer puts everything where it needs to be and you’re set to go.<!--more--></p>
+<h3>Setting up a Test</h3>
+<p>Setting up a test is as simple as starting to record, then going to the sites you want to test. WAPT records all your activity. You then organize it into Initial, Main, and Final actions. The initial actions are executed once per VU per round. These would include things like logging in. The main actions are completed as many times as you tell it to in the virtual user profile. Final actions are completed after all iterations of the main actions.<strong> </strong></p>
+
+<p>Once the tests are recorded, you set the Test Volume information and run the test.</p>
+
+<p>I docked WAPT 1 point in this category because the recorder does not do a very good job with AJAX applications. It did okay with Gmail but not so much with LDS Maps.</p>
+<h3>Running a Test</h3>
+<p>Running a test is a piece of cake. Once it’s all set up, click the run button and you’re on your way.<strong> </strong></p>
+<h3>Technical Knowledge Needed</h3>
+<p>Little to no technical ability is needed, since there is no scripting or programming required. You can do most tests just by recording them and playing them back.<strong> </strong></p>
+<h3>Platform</h3>
+<p>WAPT is Windows-only. Requirements:<strong> </strong></p>
+<ul>
+	<li>Windows 98/Me/2000/XP/Vista (also works on Windows 7 RC)</li>
+	<li>Internet Explorer 5.5 or higher</li>
+	<li>At least 100 MB free hard drive space (for program + logs)</li>
+</ul>
+<p>Recommended:</p>
+<ul>
+	<li>Pentium 4 or Athlon XP processor</li>
+	<li>512 MB+ RAM</li>
+	<li>Gigabit ethernet</li>
+</ul>
+<!--StartFragment-->
+<h2 style="text-align: center;">Functionality</h2>
+<h3>Recording a test</h3>
+<p>WAPT uses an in-application browser to record test cases. This is a great feature when recording https test cases. Most other tools use a proxy which is unable to detect https GET/POST data.<strong> </strong></p>
+
+<p>Unfortunately WAPT doesn’t do a great job recording AJAX application scenarios. Some AJAX requests are missed by the recorder, and thus would have to be created manually. With the Internet moving more and more toward rich applications, this will be a problem if they can’t get it resolved in future versions.</p>
+<h3>Scripting</h3>
+<p>WAPT does not support any kind of scripting.<strong> </strong></p>
+<h3>Reporting</h3>
+<p>The reports can be saved as html files which includes some summary data and basic graphs. Results can also be saved to a CSV file if a more detailed data analysis is needed. Figure 1 and Figure 2 below show examples of the information that is available in the HTML reports. As you can see from Figure 2, the data is grouped together by time period. These groupings can be adjusted. The current setting groups them into 10 different segments. That number can be raised or lowered as desired. The list below is all the statistics that are calculated and included in the HTML reports.<strong> </strong></p>
+<ul>
+	<li>Avg response time (also min/max per page)</li>
+	<li>Avg download time (also min/max per page)</li>
+	<li>Pages per second</li>
+	<li>Hits/sec</li>
+	<li>Sessions/sec</li>
+	<li>Total Kbytes sent and received</li>
+	<li>Received and sent kbits/sec</li>
+	<li>Received and sent kbits/sec/user</li>
+	<li>HTTP errors (including user-defined validation errors)</li>
+	<li>Socket errors</li>
+	<li>Timeouts</li>
+	<li>Active users</li>
+	<li>Total pages, hits, and sessions</li>
+</ul>
+<p>[caption id=”attachment_85” align=”alignnone” width=”588” caption=”WAPT Report Graph (HTML)”]<a href="http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png"><img class="size-full wp-image-85 " title="WAPT Report Graph (HTML)" src="http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png" alt="" width="588" height="416" /></a>[/caption]</p>
+
+<p>[caption id=”attachment_86” align=”alignnone” width=”560” caption=”WAPT Report Table”]<a href="http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png"><img class="size-full wp-image-86   " title="WAPT Report Table" src="http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png" alt="" width="560" height="397" /></a>[/caption]</p>
+<h4>Trend Reporting</h4>
+<p>WAPT’s graphs are great at showing the trend throughout the test. Each metric is measured for each time period and the graph shows the results live while the test is running. These results are also available in the CSV file exported.</p>
+<h4>Integration</h4>
+<p>The only external integration WAPT offers is the ability to export to CSV. <strong> </strong></p>
+<h3>Data Functions</h3>
+<p>In WAPT this is possible, but not as smooth as with jMeter and others. It is done by creating a variable, selecting its function to be “Random from list” or “Ordered list”, and then loading the strings from a file. It this way, each parameter (e.g., street, address, city, etc.) needs its own file. Not the most efficient way. Other programs allow you to use a CSV with each column as its own variable.<strong> </strong></p>
+<h3>Load Generation / Distributed Load Generation</h3>
+<p>WAPT does not support distributed load testing. WAPT Pro does, but the license for that costs twice what the regular license is. WAPT Pro includes the ability to generate load with 2 machines. More “load agents” as they are called cost $200. There is no limit on VUs, though, so your ability to create load is limited only by your hardware.<strong> </strong></p>
+<h3>Server Monitoring</h3>
+<p>WAPT does not include any ability to perform server monitoring. WAPT Pro does.<strong> </strong></p>
+<h3>Documentation</h3>
+<p>The documentation that comes with WAPT is great. Because the tool is so simple, it really doesn’t need a lot of documentation. WAPT is not feature-rich, so the little documentation that exists effectively covers all of its functionality.<strong> </strong></p>
+<h3>User Interface</h3>
+<p>Fairly pretty UI. Bubbly icons look a little ‘90s, but it’s not bad.<strong> </strong></p>
+<h3>Performance v. Stress Testing</h3>
+<p>WAPT supports both static-load performance testing and ramp-up stress testing. It also allows you to select whether you want the tests to run a certain number of times or just for a certain time frame. The screenshot below (Figure 3) shows the setup screen where you select how many VUs will be in the test, the ramp-up time (if there is any), and the final load. WAPT also provides an option for “Periodic” load, which alternates between two levels on a schedule you set.</p>
+
+<p>[caption id=”attachment_87” align=”alignnone” width=”300” caption=”WAPT Load test setup”]<a href="http://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png"><img class="size-medium wp-image-87 " title="WAPT Load test setup" src="http://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png" alt="" width="300" height="256" /></a>[/caption]</p>
+<h3>Bugs/Weirdness</h3>
+<ul>
+	<li>The built-in report graphs are great, but they use both sides of the y-axis for different scales (Figure 4). There is no indication which line is associated with which scale. You have to turn items off and back on to be able to figure out what goes where.<strong> </strong></li>
+</ul>
+<p>[caption id=”attachment_88” align=”alignnone” width=”530” caption=”WAPT report graph”]<a href="http://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png"><img class="size-full wp-image-88  " title="WAPT report graph" src="http://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png" alt="" width="530" height="482" /></a>[/caption]</p>
+<h2 style="text-align: center;">Project Info</h2>
+<h3>History</h3>
+<p>SoftLogica is based out of Novosibirsk, Russia. Their website appears very out of date, with the most recent press release from 2007, and the newest newsletter from 2006.</p>
+<h3>Frequency of Releases</h3>
+<p>New major versions of WAPT are released on average every two years. The newest version (5.0) was released in May, 2007.</p>
+<h3>Active Forums</h3>
+<h4>Official Forums</h4>
+<ul>
+	<li><a href="http://www.loadtestingtool.com/forum/index.php">Official WAPT Forum</a></li>
+</ul>
+<h4>Unofficial Forums</h4>
+<ul>
+	<li>N/A</li>
+</ul>
+<h3>Company URL</h3>
+<p><a href="http://www.softlogica.com/">http://www.softlogica.com/</a><strong> </strong></p>
+
+<!--EndFragment-->
+
+  </div><a class="u-url" href="/blog/wapt/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Schuetzler.net</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Schuetzler.net</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Omaha metropolitan area.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
