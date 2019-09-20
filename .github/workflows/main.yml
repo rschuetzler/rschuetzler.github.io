@@ -1,6 +1,10 @@
-steps:
-  - uses: actions/checkout@master
-  - uses: EdricChan03/action-build-deploy-ghpages@v2.1.0
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
+on: push
+jobs:
+  build:
+    name: Build and deploy GitHub Pages
+    steps:
+      - uses: actions/checkout@master
+      - uses: EdricChan03/action-build-deploy-ghpages@v2.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
