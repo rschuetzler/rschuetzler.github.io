@@ -9,7 +9,5 @@ jobs:
       - uses: actions/checkout@master
       - uses: EdricChan03/action-build-deploy-ghpages@v2.1.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-          OVERRIDE_GH_PAGES_BRANCH: ${{ true }}
-          gh_pages_branch: 'gh-pages'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
