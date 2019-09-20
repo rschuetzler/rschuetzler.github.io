@@ -1,7 +1,10 @@
-on: push
+name: Build GH Pages
+on: [push]
+
 jobs:
   build:
     name: Build and deploy GitHub Pages
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: EdricChan03/action-build-deploy-ghpages@v2.1.0
