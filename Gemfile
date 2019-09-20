@@ -29,5 +29,8 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+end
 
+gem "rake-jekyll", "~> 1.1"
