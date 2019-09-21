@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: EdricChan03/action-build-deploy-ghpages@v2.1.0
+      - uses: EdricChan03/action-build-deploy-ghpages@v2.1.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
