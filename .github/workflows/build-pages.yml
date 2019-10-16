@@ -11,3 +11,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
+          gh_pages_commit_message: 'Deploy commit $GITHUB_SHA\n\nAutodeployed using $GITHUB_ACTION in $GITHUB_WORKFLOW'
+          remote_repo: 'https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git'
+          committer_username: 'rschuetzler'
+          committer_email: 'rschuetzler@users.noreply.github.com'
+          override_gh_pages_branch: ${{ true }}
