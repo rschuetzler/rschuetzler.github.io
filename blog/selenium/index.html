@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>QA Tool Review: Selenium | Schuetzler.net</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="QA Tool Review: Selenium" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This will be the first in a series of reviews of various software testing tools. These were done over the past few weeks and cover the tool’s usage from a new QA tester’s perspective. Selenium 1.0.1 Evaluation Description Selenium is a functional testing tool designed to automate tests on web applications. Tests can be recorded or created using the Selenium IDE or using Selenium RC. With Selenium RC, tests can be written in Java, C#, Perl, PHP, Python, and Ruby. Selenium IDE is available from either the Firefox add-ons page or the Selenium homepage, though I recommend the Selenium page because the Firefox add-ons version is sometimes out-of-date. Selenium RC is only available from the Selenium downloads page." />
+<meta property="og:description" content="This will be the first in a series of reviews of various software testing tools. These were done over the past few weeks and cover the tool’s usage from a new QA tester’s perspective. Selenium 1.0.1 Evaluation Description Selenium is a functional testing tool designed to automate tests on web applications. Tests can be recorded or created using the Selenium IDE or using Selenium RC. With Selenium RC, tests can be written in Java, C#, Perl, PHP, Python, and Ruby. Selenium IDE is available from either the Firefox add-ons page or the Selenium homepage, though I recommend the Selenium page because the Firefox add-ons version is sometimes out-of-date. Selenium RC is only available from the Selenium downloads page." />
+<link rel="canonical" href="/blog/selenium/" />
+<meta property="og:url" content="/blog/selenium/" />
+<meta property="og:site_name" content="Schuetzler.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-08-23T00:00:00+00:00" />
+<script type="application/ld+json">
+{"headline":"QA Tool Review: Selenium","dateModified":"2009-08-23T00:00:00+00:00","datePublished":"2009-08-23T00:00:00+00:00","description":"This will be the first in a series of reviews of various software testing tools. These were done over the past few weeks and cover the tool’s usage from a new QA tester’s perspective. Selenium 1.0.1 Evaluation Description Selenium is a functional testing tool designed to automate tests on web applications. Tests can be recorded or created using the Selenium IDE or using Selenium RC. With Selenium RC, tests can be written in Java, C#, Perl, PHP, Python, and Ruby. Selenium IDE is available from either the Firefox add-ons page or the Selenium homepage, though I recommend the Selenium page because the Firefox add-ons version is sometimes out-of-date. Selenium RC is only available from the Selenium downloads page.","url":"/blog/selenium/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/selenium/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Schuetzler.net" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Schuetzler.net</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">QA Tool Review: Selenium</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2009-08-23T00:00:00+00:00" itemprop="datePublished">Aug 23, 2009
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This will be the first in a series of reviews of various software testing tools. These were done over the past few weeks and cover the tool’s usage from a new QA tester’s perspective.</p>
+<div style="text-align: center;"><span style="font-size: 180%;">Selenium 1.0.1 Evaluation</span></div>
+<p><span style="font-weight: bold;">Description</span>
+Selenium is a functional testing tool designed to automate tests on web applications. Tests can be recorded or created using the Selenium IDE or using Selenium RC. With Selenium RC, tests can be written in Java, C#, Perl, PHP, Python, and Ruby. Selenium IDE is available from either the <a href="https://addons.mozilla.org/en-US/firefox/addon/2079">Firefox add-ons</a> page or the <a href="http://seleniumhq.org/download/">Selenium homepage</a>, though I recommend the Selenium page because the Firefox add-ons version is sometimes out-of-date. Selenium RC is only available from the Selenium <a href="http://seleniumhq.org/download/">downloads</a> page.</p>
+
+<p><span style="font-weight: bold;">Pros</span></p>
+<ul>
+	<li>IDE allows easy recording and playback of tests, plus translation into other programming languages.</li>
+	<li>Tests can be played in any browser<!--more--></li>
+</ul>
+<p><span style="font-weight: bold;">Cons</span></p>
+<ul>
+	<li>IDE only available for Firefox.</li>
+	<li>IDE not perfect at capturing interaction with a web application.</li>
+</ul>
+<p><span style="font-weight: bold;">Pricing</span>
+Free, free, and free. Also, open source. Selenium server is developed in Java.</p>
+<div style="text-align: center;"><span style="font-weight: bold; font-size: 130%;">Ease of Use</span></div>
+<p><span style="font-weight: bold;">Ease of Installation</span>
+Selenium IDE is available as a Firefox extension. It can be installed either from the Mozilla Add-ons page or through the Selenium website. Often the Mozilla page does not have the latest version, so it is probably best to download from the Selenium homepage. As soon as the IDE is installed you can begin recording and playing back tests. For basic tests, you may not need anything more than the IDE. Tests can be recorded and run directly from there and the report is straightforward.<!--more--></p>
+
+<p>Selenium RC is slightly more complicated because you have to use a programming language to run tests. It is still a pretty simple process to get running. You can use any testing framework and use the API to perform the tests and drive the server. This gets even easier if you use the IDE to record the test and translate it to the language. Then it’s a simple matter of tweaking the test to work in your chosen framework. By default the tests can be recorded and exported to Java for JUnit.</p>
+
+<p><span style="font-weight: bold;">Setting up a Test</span>
+Setting up a test is very easy. The IDE makes everything very simple. Most functional tests can be created by recording your browser actions. After you’ve got all the actions recorded, you can easily add assertions to verify that things are showing up like they should.</p>
+
+<p>Once a test is set up in the IDE, it can be translated into a programming language and run using that language.</p>
+
+<p><span style="font-weight: bold;">Running a Test</span>
+Running a test is a piece of cake in the IDE and the RC. Once you’ve got it set up you just run your test and the reports are generated. Bam!</p>
+
+<p>You can also organize tests into Test Suites to be run together. This allows you to separate different tests for different parts of functionality. These suites can be run directly from the IDE.</p>
+
+<p><span style="font-weight: bold;">Technical Knowledge Needed</span>
+To create tests using the IDE, very little technical knowledge or ability is needed. To create the tests in a programming language, some experience with a testing framework is very helpful.</p>
+<div style="text-align: center; font-weight: bold;"><span style="font-size: 130%;">Functionality
+</span></div>
+<p><span style="font-weight: bold;">Recording a test</span>
+Recording through Selenium IDE is a piece of cake. It doesn’t capture everything perfectly (actions like pressing the browser’s back button aren’t recognized, but can be coded in), but correcting/tweaking tests to meet needs is as easy as inserting a new command and filling in the options.</p>
+
+<p><span style="font-weight: bold;">Scripting</span>
+Using the Selenium RC server, you can write tests in Java, C#, Perl, PHP, Python, and Ruby. Using these languages you can add your own custom assertions and tests to validate your application.</p>
+
+<p><span style="font-weight: bold;">Reporting</span>
+The reports generated within Selenium IDE show reports of how many tests were run and how many failed. In addition, they show which step of the test failed. When run in Java, they can be run using any testing framework, including JUnit and TestNG. The reports generated will be those created by the testing framework used.</p>
+
+<p><span style="font-weight: bold;">Browser Support</span>
+Selenium RC supports IE, Firefox, Google Chrome, and supposedly Opera. I couldn’t get Opera to work, but I didn’t spend very much time on it. Selenium IDE is a Firefox-only add-on.</p>
+
+<p><span style="font-weight: bold;">Data Functions</span>
+There are no data functions available through the IDE, but when running tests with a programming language and Selenium RC, anything is possible. Well, anything that can be done with the programming language.</p>
+
+<p><span style="font-weight: bold;">Documentation</span>
+Selenium’s documentation from their website is excellent. They provide good basic tutorials for getting started and a comprehensive doc describing all available commands. There is an extensive user community providing support and user guides.</p>
+
+<p>The Javadoc is complete and included with the download of the RC.</p>
+
+<p><span style="font-weight: bold;">User Interface</span>
+The UI for the Selenium IDE is decent. It is clear and easy to figure out.</p>
+
+<p><span style="font-weight: bold;">Bugs/Weirdness</span></p>
+<ul>
+	<li>Tests can only be run on sites in one domain. If you can get to another domain by clicking, that will work, but you cannot directly open a page in another domain.</li>
+</ul>
+
+  </div><a class="u-url" href="/blog/selenium/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Schuetzler.net</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Schuetzler.net</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

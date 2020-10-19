@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Vagrant Setup | Schuetzler.net</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Vagrant Setup" />
+<meta name="author" content="Ryan Schuetzler" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This exercise will aid you in setting up and becoming familiar with Vagrant, VirtualBox, and SSH. You will use these tools throughout the course to learn networking and security concepts." />
+<meta property="og:description" content="This exercise will aid you in setting up and becoming familiar with Vagrant, VirtualBox, and SSH. You will use these tools throughout the course to learn networking and security concepts." />
+<link rel="canonical" href="/network_labs/vagrant-virtualbox/" />
+<meta property="og:url" content="/network_labs/vagrant-virtualbox/" />
+<meta property="og:site_name" content="Schuetzler.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-28T00:00:00+00:00" />
+<script type="application/ld+json">
+{"headline":"Vagrant Setup","dateModified":"2018-08-28T00:00:00+00:00","datePublished":"2018-08-28T00:00:00+00:00","description":"This exercise will aid you in setting up and becoming familiar with Vagrant, VirtualBox, and SSH. You will use these tools throughout the course to learn networking and security concepts.","url":"/network_labs/vagrant-virtualbox/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/network_labs/vagrant-virtualbox/"},"author":{"@type":"Person","name":"Ryan Schuetzler"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Schuetzler.net" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Schuetzler.net</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This exercise will aid you in setting up and becoming familiar with Vagrant, VirtualBox, and SSH.
+You will use these tools throughout the course to learn networking and security concepts.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="learning_objectives">Learning Objectives</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By the end of this lesson, you will be able to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Setup a Linux virtual machine on your computer</p>
+</li>
+<li>
+<p>Connect to a local virtual machine using SSH</p>
+</li>
+<li>
+<p>Suspend a virtual machine</p>
+</li>
+<li>
+<p>Destroy a virtual machine</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="conventions">Conventions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In these exercises, commands run from a Windows command prompt will be prefixed with "&gt;", such as <code>&gt; cd ~</code>. The "&gt;" should not be typed.
+Commands run in a Linux shell will be prefixed with "$", such as <code>$ ls -al</code>.
+This notation will help you determine where to run the commands because you will frequently switch between your main computer and the virtual machines.</p>
+</div>
+<div class="paragraph">
+<p>The primary tools we will be using for the labs, Vagrant and VirtualBox, are available for Windows, macOS, and Linux.
+For the purposes of all of these labs, you are assumed to be running a recent version of Microsoft Windows.
+If that is not the case, you may need to adapt some of the instructions to your primary operating system.
+You are reponsible for figuring out how to complete the assignment on whatever operating system you use if it is not Windows.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="steps">Steps</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="step_1_download_and_install_virtualbox">Step 1: Download and Install VirtualBox</h3>
+<div class="paragraph">
+<p>Your computer has an operating system (OS), probably Windows, macOS, or a version of Linux.
+Software exists that allows you to run another OS while your main OS is still running.
+For example, with a Windows laptop, you could run Ubuntu Linux as if it were another application on your computer.
+Your Windows OS would be the "host," and the Ubuntu Linux OS would be the "guest."
+In this case, the guest is not connecting to your hardware directly, but virtually, and is therefore called a virtual machine.
+Virtual machines run on virtualization software that makes the system hardware and host platform agnostic.</p>
+</div>
+<div class="paragraph">
+<p>There are several software platforms that allow you to run virtual machines.
+At the enterprise level, Microsoft&#8217;s Hyper-V and VMWare ESX allow professionals to deploy virtual machines inside data centers.
+With these platforms, there is no host OS; the virtual machines run on the server hardware with only a thin virtualization layer between the operating system and the hardware.
+Virtualization is quickly becoming the de-facto option for deploying servers in an enterprise environment.</p>
+</div>
+<div class="paragraph">
+<p>Virtualization options also exist for desktop users who want to run guest operating systems.
+The guest operating systems can be used for software development, testing software exploits, or learning about different operating systems.
+By default, the guest operating system is sandboxed, meaning it cannot affect the host operating system.
+Guest operating systems can be configured to interact with the host operating system by sharing access to specific folders, but a guest operating system will never make configuration changes to the host operating system.
+Basically, you can run guest operating systems without worrying about messing up your computer.</p>
+</div>
+<div class="paragraph">
+<p>VirtualBox is a an excellent open source tool for running virtual machines on your system.
+It has an added advantage in that it is free.
+We will use Virtualbox for these exercises to demonstrate and try out networking concepts.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Open <a href="https://www.virtualbox.org/wiki/Downloads" class="bare">https://www.virtualbox.org/wiki/Downloads</a></p>
+</li>
+<li>
+<p>Download the latest version of VirtualBox for computer&#8217;s operating system</p>
+</li>
+<li>
+<p>Install VirtualBox when the download completes</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="step_2_download_and_install_vagrant">Step 2: Download and install Vagrant</h3>
+<div class="paragraph">
+<p>Vagrant is a software package that makes setting up new virtual machines extremely simple.
+Without Vagrant, if you were to install an operating system you would need to download the DVD or CD installation media, start a new virtual machine instance, follow the on-screen prompts, wait, follow more prompts, etc.
+Without Vagrant, it can easily take an hour to get a basic virtual machine running and configured the way you want it to be.
+Vagrant simplifies this process by creating "boxes" that come 99% ready for use.
+Instead of creating a new virtual machine from scratch, Vagrant provisions a box and finishes the last 1% of the configuration.
+This way, Vagrant can create a virtual machine in minutes instead of hours.
+Follow the steps below to download and install Vagrant.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Open <a href="http://www.vagrantup.com/downloads.html" class="bare">http://www.vagrantup.com/downloads.html</a></p>
+</li>
+<li>
+<p>Install the Windows universal version (or the version that matches your computer&#8217;s operating system if not Windows)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="step_3_setup_an_ubuntu_virtual_machine">Step 3: Setup an Ubuntu Virtual Machine</h3>
+<div class="paragraph">
+<p>In this section, you will use Vagrant to create and start an Ubuntu Linux virtual machine.
+If you have not yet rebooted after installing Virtual Box and Vagrant, please do so before starting this section.</p>
+</div>
+<div class="paragraph">
+<p>Ubuntu is one of the most popular versions of Linux, so it is often easy to find information and support for it online.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Create a folder to store your lab files (e.g., <code>C:\Users\John\labs\Vagrant</code>).</p>
+</li>
+<li>
+<p>Open a command prompt and navigate to your Vagrant folder. (The folders that you use might be different based on the folder names on your computer.)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Click Start &gt; cmd.exe [enter]</p>
+</li>
+<li>
+<p><code>&gt; cd labs\Vagrant</code></p>
+</li>
+<li>
+<p>Or you can open the directory in Windows Explorer: navigate to the directory in Explorer, click on the address bar at the top, type <code>cmd</code> and press Enter. This shortcut opens a command prompt to the directory you are currently viewing.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Create a new folder called "Exercise1"</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>&gt; md Exercise1</code> [enter]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Navigate to the Exercise1 folder</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>&gt; cd Exercise1</code> [enter]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Create a new virtual machine with the following command:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>&gt; vagrant init ubuntu/bionic64</code> [enter]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Start the virtual machine with the following command:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>&gt; vagrant up</code> [enter]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<code>ubuntu/bionic64</code> refers to a Vagrant box (i.e. template computer).
+If you have not already used this box, the box will be downloaded automatically.
+Depending on your Internet connection speed, this download may take some time.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Your Ubuntu virtual machine is now running.
+You will not see a graphical user interface (GUI) because by default, Vagrant virtual machines are "headless."
+There are ways to turn on the GUI, but for now it is not needed.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="step_6_connect_to_the_ubuntu_virtual_machine_with_ssh">Step 6: Connect to the Ubuntu Virtual Machine with SSH</h3>
+<div class="paragraph">
+<p>Secure Shell (SSH) is a secure protocol for connecting to a remote machine to run commands.
+A guest OS is treated much like a remote machine.
+SSH can be used to communicate and run commands within your virtual machine.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>In your command prompt, run the following command in the Exercise1 folder:</p>
+<div class="literalblock">
+<div class="content">
+<pre>&gt; vagrant ssh</pre>
+</div>
+</div>
+</li>
+<li>
+<p>You should see a connection made to the virtual machine similar to the
+following image.</p>
+</li>
+</ul>
+</div>
+<div id="img-ssh-success" class="imageblock text-center">
+<div class="content">
+<img src="../figs/logged-in.png" alt="logged in" width="500">
+</div>
+<div class="title">Figure 1. SSH Connected</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If you see a message similar to the screenshot, congratulations! You have
+successfully installed Virtual Box and Vagrant. You now know how to create a
+virtual machine and connect to it.</p>
+</li>
+<li>
+<p>Connecting to a machine with SSH is commonly called an SSH session. You close
+your session when you close the window or log out of the machine.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="step_7_suspend_resume_and_destroy">Step 7: Suspend, Resume, and Destroy</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Run <code>$ exit</code> or press Ctrl+D to leave the SSH session. You will be back at your regular command prompt.</p>
+</li>
+<li>
+<p>Run <code>&gt; vagrant suspend</code> to suspend your machine. Suspending the machine saves its running state to your hard drive and allows you to bring it back up quickly.</p>
+</li>
+<li>
+<p>Run <code>&gt; vagrant ssh</code>. This should fail because the machine is not running.</p>
+</li>
+<li>
+<p>Run <code>&gt; vagrant up</code> to bring the machine into a running state again.</p>
+</li>
+<li>
+<p>Run <code>&gt; vagrant ssh</code>. This should succeed.</p>
+</li>
+<li>
+<p>Run <code>$ exit</code>.</p>
+</li>
+<li>
+<p>Run <code>&gt; vagrant destroy</code> to turn off the machine and delete it completely from
+your system. Answer <code>y</code> to confirm deletion.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="common_errors_and_issues">Common errors and issues</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="virtualization_disabled">Virtualization disabled</h3>
+<div class="paragraph">
+<p>Symptoms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>vagrant up</code> command returns an error message of &#8220;VT-x is disabled in the BIOS&#8221; or &#8220;AMD-V is disabled in the BIOS&#8221;</p>
+</li>
+<li>
+<p><code>vagrant up</code> command says it has timed out.</p>
+</li>
+<li>
+<p>If you open Virtualbox and attempt to create or open a 64-bit VM, it will display an error.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Some hardware vendors ship computers with hardware virtualization turned off by default.  If you see that Vagrant is timing out in attempting to create your virtual machines, you may have to dig into your BIOS settings to enable virtualization.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ssh_exe_is_not_found_on_the_path">SSH.exe is not found on the path</h3>
+<div class="paragraph">
+<p>If you are receiving this error, you need to get SSH installed on your machine and added to your PATH.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="other_issues">Other issues</h3>
+<div class="paragraph">
+<p>It is possible that you have other issues as you try to use Vagrant and VirtualBox together.  Keep a close eye out for any error messages along the way.  If you see an error message, stop working on the lab and figure out how to fix that error before moving on.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="thought_questions">Thought Questions</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="basics">Basics</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>What is virtualization?</p>
+</li>
+<li>
+<p>What does Vagrant do for us in this lab?</p>
+</li>
+<li>
+<p>What is the command to set up a virtual machine using Vagrant?</p>
+</li>
+<li>
+<p>What is the command to start a virtual machine using Vagrant?</p>
+</li>
+<li>
+<p>Is your virtual machine shut down now?</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="do_some_research">Do some research</h3>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>SSH is not the only technology we can use to access a remote machine. An older alternative is a program called <code>telnet</code>. What advantages does SSH have over telnet?</p>
+</li>
+<li>
+<p>What are some ways virtualization is used in the real world (outside of this lab)?</p>
+</li>
+<li>
+<p>Go to <a href="https://app.vagrantup.com/boxes/search" class="bare">https://app.vagrantup.com/boxes/search</a> and look at the list of pre-created Vagrant boxes. Create a new VM with a different box on your machine. Are there any differences you can tell?</p>
+</li>
+<li>
+<p>Open the Vagrantfile that was created when you typed <code>vagrant init ubuntu/bionic64</code>. All lines in that file that start with <code>#</code> are comments. There may only be 2 or 3 lines in the entire file not commented out. What do you think the Vagrantfile does?</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Schuetzler.net</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Schuetzler.net</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

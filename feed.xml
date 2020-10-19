@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-10-19T02:41:45+00:00</updated><id>/feed.xml</id><title type="html">Schuetzler.net</title><subtitle>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</subtitle><entry><title type="html">Using Discourse.org for a class discussion board</title><link href="/blog/creating-class-community-with-discourse/" rel="alternate" type="text/html" title="Using Discourse.org for a class discussion board" /><published>2019-05-10T00:00:00+00:00</published><updated>2019-05-10T00:00:00+00:00</updated><id>/blog/creating-class-community-with-discourse</id><content type="html" xml:base="/blog/creating-class-community-with-discourse/">&lt;p&gt;For the past two semesters I have been using &lt;a href=&quot;https://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt; for my class discussion board. I started using it mainly due to the restricted nature of Canvas’s built-in discussion boards, which are terribly designed for actual discussion. Using Discourse, I’m able to have real conversations with my class, and my students are encouraged to interact with each other.&lt;/p&gt;
+
+&lt;p&gt;I recently gave a presentation at &lt;a href=&quot;https://www.unomaha.edu/news/events/2019/05/2019-digital-learning-showcase.php&quot;&gt;UNO’s Digital Learning Showcase&lt;/a&gt; on how I use the discussion board in class to create a community and the many ways it’s better at fostering engagement in my online classes compared to the kinda terrible built-in boards on Canvas. Check out my slides below.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vTNdeDQrdZgr72ggTGfR5lT2smlbF7fNBNSCnSmEAa9lFhO_Nuy13HIBm8bFkOW50ZXosr0o19gAFH7/embed?start=false&amp;amp;loop=false&amp;amp;delayms=5000&quot; frameborder=&quot;0&quot; width=&quot;700&quot; height=&quot;425&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">For the past two semesters I have been using Discourse for my class discussion board. I started using it mainly due to the restricted nature of Canvas’s built-in discussion boards, which are terribly designed for actual discussion. Using Discourse, I’m able to have real conversations with my class, and my students are encouraged to interact with each other.</summary></entry><entry><title type="html">How Much is that Service in the Window?</title><link href="/blog/how-much-is-that-service-in-the-window/" rel="alternate" type="text/html" title="How Much is that Service in the Window?" /><published>2015-12-13T23:05:42+00:00</published><updated>2015-12-13T23:05:42+00:00</updated><id>/blog/how-much-is-that-service-in-the-window</id><content type="html" xml:base="/blog/how-much-is-that-service-in-the-window/">&lt;p&gt;About 2 years into grad school I began to realize the importance of paying for
+the things that you love.  So many of the apps and services that I used offered
+a free tier that I used and abused as much as possible because I was a student
+with very little extra money to spend.  A probably embarrassing amount of time
+was spent looking for free alternatives to the things I really wanted to use.  I
+preferred Zotero over EndNote, I used R instead of SPSS, and I endlessly waffled
+between Dropbox, Google Drive, and OneDrive depending on who was offering the
+most free GBs.  But I also found that many of the things I loved disappeared
+because they didn’t find a way to support themselves.  Several online services
+that I enjoyed, like Turntable.fm, disappeared because they could not create the
+revenue they needed to continue operation.  And as a perpetual mooch, I was a
+part of the problem.  So I resolved that, when I could, I would support the
+applications that I loved to use, because I want them to stick around.&lt;/p&gt;
+
+&lt;p&gt;I recently finished grad school and moved on to a real job at a real university,
+which means I’ve recently moved from having $0 of discretionary income to having
+approximately $10 of discretionary income each month.  Through my time in grad
+school I survived off of the “free” tier of so many freemium products it’s not
+even funny.  Evernote, Pocket, LastPass, Spotify, Dropbox, Github, and so many
+other products have the courtesy to offer me a free tier that allows me to use
+their services without breaking the bank.  As a broke student, I appreciated and
+fully availed myself of those options.  Now that I’m out of school, I feel a bit
+of an obligation to support those services that supported me so well during
+those lean times.  Now comes the issue of cost, however.  Most of these services
+offer a paid tier that gives a few extra bonus features.  The question now comes
+to how much am I willing to pay.  I wish I could afford to support all of the
+services that I love so much, but in glancing around, it’s just not possible.&lt;/p&gt;
+
+&lt;p&gt;The true impetus for this post comes from Pushbullet’s recent announcement of
+their paid tier,
+&lt;a href=&quot;https://blog.pushbullet.com/2015/11/17/introducing-pushbullet-pro/&quot;&gt;Pushbullet Pro&lt;/a&gt;.
+Pushbullet is one of those services I’ve been using pretty much since its
+creation.  It allows me to push links and text back and forth between my phone
+and computer, and over the time it’s been around has added text messaging and
+universal copy-paste to its repertoire.  With Pushbullet Pro, they have moved
+some of the previously free features into a paid tier subscription of $5/month
+or $40/year.  Immediately outrage ensued from Pushbullet’s huge fanbase at
+reddit.com/r/Android and reddit.com/r/Pushbullet.  Many have been crying for an
+opportunity to support the developers, but when the paid plan came out, most
+seemed to find it too expensive.&lt;/p&gt;
+
+&lt;p&gt;In a world of freemium and subscription services, how can a service know what to
+charge?  Most (if not all) operate on elastic demand curves, so charging too
+much will lead people to seek alternatives, while charging too little may result
+in more paid customers, but potentially lower total revenue.  I investigated the
+paid options for some of the services I would like to support, and here’s what I
+came up with:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Service&lt;/th&gt;
+      &lt;th&gt;Price/month&lt;/th&gt;
+      &lt;th&gt;/year&lt;/th&gt;
+      &lt;th&gt;link&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pushbullet&lt;/td&gt;
+      &lt;td&gt;5.00&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+      &lt;td&gt;https://www.pushbullet.com/pro&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Focusatwill&lt;/td&gt;
+      &lt;td&gt;11.83&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;https://www.focusatwill.com/15dt-new/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Evernote&lt;/td&gt;
+      &lt;td&gt;na&lt;/td&gt;
+      &lt;td&gt;25-50&lt;/td&gt;
+      &lt;td&gt;https://evernote.com/pricing/?offer=www_menu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Office&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;https://products.office.com/en-us/office-365-home&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spotify&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;na&lt;/td&gt;
+      &lt;td&gt;https://www.spotify.com/us/premium/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LastPass&lt;/td&gt;
+      &lt;td&gt;na&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;https://lastpass.com/go-premium/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pocket&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;45&lt;/td&gt;
+      &lt;td&gt;https://getpocket.com/premium?ep=1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Feedly&lt;/td&gt;
+      &lt;td&gt;na&lt;/td&gt;
+      &lt;td&gt;65&lt;/td&gt;
+      &lt;td&gt;https://feedly.com/i/pro&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dropbox&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;https://www.dropbox.com/pro&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Github&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;na&lt;/td&gt;
+      &lt;td&gt;https://github.com/pricing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Adobe&lt;/td&gt;
+      &lt;td&gt;10-40&lt;/td&gt;
+      &lt;td&gt;120-480&lt;/td&gt;
+      &lt;td&gt;https://creative.adobe.com/plans&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Crashplan&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;60&lt;/td&gt;
+      &lt;td&gt;https://store.code42.com/store/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Audible&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;na&lt;/td&gt;
+      &lt;td&gt;http://www.audible.com/pap&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;And this is nowhere near a comprehensive list.  If I were to pay for all of the
+services I would like to pay for, I’d be broke.  And I would love to pay to
+support a lot of these services.  However, &lt;em&gt;how much&lt;/em&gt; I pay for each of these
+services and how much value each provides for me are extremely important.&lt;/p&gt;
+
+&lt;p&gt;This brings me to the question: how much should you charge for your service?
+Keeping in mind that your customers likely have a huge number of awesome sites
+and services with great paid options, how do you decide what price your service
+is worth to your customers?  Here is where I believe Pushbullet made some
+crucial mistakes.  Pushbullet hit a huge wall with their extremely loyal
+fanbase.  Where did they go wrong? I believe Pushbullet made two big mistakes
+with the Pro service:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Removing previously free features to begin charging for them&lt;/li&gt;
+  &lt;li&gt;Charging too much&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;crippling-the-app&quot;&gt;Crippling the app&lt;/h2&gt;
+
+&lt;p&gt;The first mistake was crippling the free version of the app in order to charge
+for it.  Some may argue that this is necessary.  Pushbullet as it existed prior
+to the introduction of Pro was really an amazing app that provided virtually
+everything its users wanted.  How else would they get people to upgrade to a
+paid service than move certain features behind a paywall?  This hit a nerve
+with a lot of fans.&lt;/p&gt;
+
+&lt;p&gt;Pushbullet isn’t the first service to begin charging for things that were once
+free. The New York Times has fought to find a way to
+&lt;a href=&quot;http://thebillfold.com/2012/11/paying-for-things-that-used-to-be-free/&quot;&gt;charge users to read the news&lt;/a&gt;,
+on an Internet where
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Information_wants_to_be_free&quot;&gt;information wants to be free&lt;/a&gt;.
+But Pushbullet hit hard because not only were they charging for something that
+was free, they were charging what seemed an exorbitant price for it.&lt;/p&gt;
+
+&lt;h2 id=&quot;charging-too-much&quot;&gt;Charging too much&lt;/h2&gt;
+
+&lt;p&gt;As I mentioned before, pricing any service is difficult, especially in a space
+where you are really the only actor.  Nobody else was providing cross-platform
+link-pushing, clipboard-sharing, and notification sharing the way Pushbullet
+does.  These services were something users found valuable.  But just how
+valuable was the issue.&lt;/p&gt;
+
+&lt;p&gt;When it comes to paying for services online, I believe there are two tiers: (1)
+the full-fledged application, and (2) the auxiliary service.  Evernote, Spotify,
+and others like it fall into the full-fledged application category.  $5-10 per
+month is a great price, because you use these services daily, and they perform
+in multiple parts of your life, or take the place of other things.  Spotify
+takes the place of purchasing music, so paying $10/month feels like a great
+deal, because that’s less than the cost of buying 1 album per month.  Evernote
+can take the place of several other premium note taking apps such as OneNote,
+and provides additional functionality by allowing clipping web pages and other
+things.  So a $5/month (less, really, since you pay annually) is a fairly good
+price.&lt;/p&gt;
+
+&lt;p&gt;Other things, though, fall into more of an add-on service category.  These are
+applications that add some functionality to things I already do.  LastPass is a
+great example.  Web browsers allow me to sync passwords already.  LastPass makes
+that a bit more secure, and decouples it from a particular browser.  Allowing me
+to take it mobile costs $1/month.  It’s an add-on.  Pocket is a service that I’m
+not willing to pay the premium price for.  I can save pages to read later with
+bookmarks.  I don’t need Pocket to read webpages; it just makes it more
+convenient.  So paying $5/month is not worth it to me.  PushBullet is in the
+same category.&lt;/p&gt;
+
+&lt;p&gt;I don’t &lt;em&gt;need&lt;/em&gt; Pushbullet.  I can text on my phone, or I can use Google Voice to
+text from my computer.  I don’t need Pushbullet to share links between my phone
+and computer.  I can use Google Keep to save a link, and it’s instantly
+available on any device.  I don’t need Pushbullet to respond to notifications on
+my phone.  I can open my phone for that.  In short, all of Pushbullet’s
+functionality can be replicated with just a bit more work.  So it falls into the
+category of an add-on or auxiliary service rather than a full-fledged
+application providing unique options.&lt;/p&gt;
+
+&lt;p&gt;In the end, pricing online services is tricky.  It’s never easy to get people to
+pay for something that was previously free.  But you have to take into
+consideration where your service fits into people’s lives.  And how much value
+you are actually adding.&lt;/p&gt;</content><author><name></name></author><summary type="html">About 2 years into grad school I began to realize the importance of paying for the things that you love. So many of the apps and services that I used offered a free tier that I used and abused as much as possible because I was a student with very little extra money to spend. A probably embarrassing amount of time was spent looking for free alternatives to the things I really wanted to use. I preferred Zotero over EndNote, I used R instead of SPSS, and I endlessly waffled between Dropbox, Google Drive, and OneDrive depending on who was offering the most free GBs. But I also found that many of the things I loved disappeared because they didn’t find a way to support themselves. Several online services that I enjoyed, like Turntable.fm, disappeared because they could not create the revenue they needed to continue operation. And as a perpetual mooch, I was a part of the problem. So I resolved that, when I could, I would support the applications that I loved to use, because I want them to stick around.</summary></entry><entry><title type="html">Back in Action</title><link href="/blog/back-in-action/" rel="alternate" type="text/html" title="Back in Action" /><published>2015-09-04T21:52:52+00:00</published><updated>2015-09-04T21:52:52+00:00</updated><id>/blog/back-in-action</id><content type="html" xml:base="/blog/back-in-action/">&lt;p&gt;Man, it’s been a while. With the craziness of first trying to finish a dissertation in
+time, then trying to defend that dissertation, then packing and moving half-way across the
+country, then staring a new job, teaching a class (I’ve taught it before, but I’m trying
+to make it more awesome), and all that those entail, I haven’t even had time to think
+about the blog.  Add to that the complication that I ended up removing my Linux server VM
+from my computer when I screwed something up horribly and had to reinstall. That broke my
+Octopress deployment process, so for a while there I didn’t even know &lt;em&gt;how&lt;/em&gt; to update my
+blog, even if I’d had time to do it.&lt;/p&gt;
+
+&lt;p&gt;But here I am.  I’ve got the blog deployment back up and running, and I can maybe see
+myself making time to write up some tutorials about things I run across.  I’m working on
+creating a set of networking labs using &lt;a href=&quot;http://vagrantup.com&quot;&gt;Vagrant&lt;/a&gt; and
+&lt;a href=&quot;http://virtualbox.org&quot;&gt;Virtualbox&lt;/a&gt;, so maybe I’ll talk about some of the things I’ve
+learned from that.  I’m sure I’ll also talk about the experience of moving from grad
+school to professorhood, but that’s still pretty new, so I’ll let things settle down a bit
+before I try to distill my thoughts.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I’m back. I’m still alive. And moving sucks and I never want to do it again.&lt;/p&gt;</content><author><name></name></author><summary type="html">Man, it’s been a while. With the craziness of first trying to finish a dissertation in time, then trying to defend that dissertation, then packing and moving half-way across the country, then staring a new job, teaching a class (I’ve taught it before, but I’m trying to make it more awesome), and all that those entail, I haven’t even had time to think about the blog. Add to that the complication that I ended up removing my Linux server VM from my computer when I screwed something up horribly and had to reinstall. That broke my Octopress deployment process, so for a while there I didn’t even know how to update my blog, even if I’d had time to do it.</summary></entry><entry><title type="html">LaTeX vs Word (again)</title><link href="/blog/latex-vs-word-again/" rel="alternate" type="text/html" title="LaTeX vs Word (again)" /><published>2015-01-05T03:41:47+00:00</published><updated>2015-01-05T03:41:47+00:00</updated><id>/blog/latex-vs-word-again</id><content type="html" xml:base="/blog/latex-vs-word-again/">&lt;p&gt;A recently published article in PLoS ONE, entitled “An Efficiency Comparison of Document
+Preparation Systems Used in Academic Research and Development”
+(&lt;a href=&quot;http://www.plosone.org/article/info:doi/10.1371/journal.pone.0115069&quot;&gt;link here&lt;/a&gt;)
+lit the world on fire. Okay, not really. In fact, most people, including researchers and
+even LaTeX enthusiasts have probably not read it. And that’s fine. Because it’s not very
+good. And I’m
+&lt;a href=&quot;http://serialmentor.com/blog/2014/12/27/post-publication-review-of-the-plos-one-paper-comparing-ms-word-and-latex-how-not-to-compare-document-preparation&quot;&gt;not the only one who thinks so&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The article focuses on the differences in “efficiency” of LaTeX and Word when writing
+academic research articles. Authors Knauff and Nejasmic apparently have some sort of bone
+to pick with LaTeX users, because the entire article, but most especially the conclusions,
+have a very clear pro-Word bias. To add my voice to the article linked above, I wanted to
+express my frustration with a few aspects of the article that I found particularly poor.&lt;/p&gt;
+
+&lt;h2 id=&quot;experimental-task&quot;&gt;Experimental Task&lt;/h2&gt;
+
+&lt;p&gt;The researchers used a set of 30 minute document duplication tasks to measure efficiency
+between Word and LaTeX users. Experienced and novice users of LaTeX and Word were given a
+single page of a research article to reproduce in their preferred method, and were given
+30 minutes to do so. Efficiency was measured in words typed, typographical errors, and
+formatting and other errors produced. The three types of task were (1) a plain text
+article, including a page header, (2) a shorter article with a table, and (3) a one-page
+article with several mathematical formulas. On both (1) and (2), Word users “outperformed”
+LaTeX users, while on the formula-filled page, LaTeX users redeemed themselves.&lt;/p&gt;
+
+&lt;p&gt;My immediate thought on reading about the task was to question how many hours of research
+are spent duplicating an existing document. Sure, I’ll freely admit that LaTeX is not as
+easy as Word when it comes to matching formatting rules. I spent several hours last spring
+creating a LaTeX template for the ICIS conference
+(&lt;a href=&quot;http://www.schuetzler.net/blog/latex-icis-template/&quot;&gt;here&lt;/a&gt;), and it was at times
+frustrating. Quickly and easily matching arbitrary formatting requirements is not where
+LaTeX shines.&lt;/p&gt;
+
+&lt;p&gt;But it’s also not what research is about. Matching formatting requirements for a journal
+is at times frustrating and time consuming, but it’s hardly what most of us think of when
+we think of writing a paper. Document organization, references, statistics, collaboration,
+version control (at least when collaborating, but even if not), and who knows what else
+are all much more important when creating a research paper. These (yes, even statistics
+with knitr) are where LaTeX and its magic shine through. I’ve
+&lt;a href=&quot;http://www.schuetzler.net/blog/intro-to-using-git-and-bitbucket-for-collaboration/&quot;&gt;written&lt;/a&gt;
+&lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-1/&quot;&gt;multiple&lt;/a&gt;
+&lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-2/&quot;&gt;times&lt;/a&gt; about the learning
+curve of LaTeX, but throughout it all I will continue to sing its praises, though maybe
+it’s just cognitive dissonance (more on that in a bit).&lt;/p&gt;
+
+&lt;p&gt;LaTeX’s big draw, and it’s main selling point to me, is that it separates the formatting
+of the document and the content of the document in a decent, logical way. About a year ago
+I was collaborating with a colleague preparing an article for submission to a
+conference. I’d bullied and badgered him into using LaTeX, and it was going really
+well. We were able to create the entire document and review it in a nice, double-spaced
+format. When it came time for submission, we found the conference’s LaTeX style, applied
+it to the document, and in about 15 seconds our entire document was reformatted to meet
+the requirements. We’d saved at least an hour, probably more, of battling with Word to
+reformat everything.&lt;/p&gt;
+
+&lt;p&gt;If a journal or conference provides both a LaTeX and Word template, there is absolutely no
+doubt in my mind that adapting an existing article to the formatting requirements would be
+easier in LaTeX than in Word. The benefit of the separation of content and formatting is
+that changing the formatting can be done independent of the content of the document.&lt;/p&gt;
+
+&lt;p&gt;So, in summary, the task was basically rigged (either intentionally or not) to favor
+Word. And it’s barely related to what writing a paper looks like.&lt;/p&gt;
+
+&lt;h2 id=&quot;discussion-and-conclusions&quot;&gt;Discussion and Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Woo-wee did the authors overreach with their conclusions. After seeing that Word users
+outperformed LaTeX users on the 30 minute sprint tasks, they took extensive creative
+liberty in extrapolating their findings. Here are the highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Because Word users outperformed LaTeX on all but the equation text, only journals that
+use equations should accept LaTeX formatted documents.&lt;/li&gt;
+  &lt;li&gt;LaTeX users were more satisfied about their experience creating a document, but only
+because they have cognitive dissonance and essentially lie to themselves about enjoying
+it to justify the time they have spent learning and using it.&lt;/li&gt;
+  &lt;li&gt;Tax dollars are spent supporting research, and some of those dollars pay to create LaTeX
+documents, and so are wasted because people aren’t using a more efficient document
+preparation system (i.e., Word) instead.&lt;/li&gt;
+  &lt;li&gt;Therefore, leading journals should ban LaTeX submissions in order to save researchers
+from themselves, and to save tax money.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pretty strong claims for a single experiment with 40 participants. I guess the validity of
+their conclusions really hinges on the validity of their task as a proxy for research. I
+have made my opinion pretty clear: I think the experimental task stinks, is a
+Word-friendly, but LaTeX-nonfriendly task, and that it’s not a valid proxy for what doing
+research and writing a paper looks like. Given that, their conclusions are an even bigger
+stretch.&lt;/p&gt;
+
+&lt;h2 id=&quot;suggestions-for-improvement&quot;&gt;Suggestions for improvement&lt;/h2&gt;
+
+&lt;p&gt;I understand that doing experiments is difficult, time consuming, and often
+frustrating. No experiment will perfectly mirror the real world environment it is
+attempting to represent. However, this paper has a few major shortcomings that prevent my
+recommending it for publication. The following are my suggestions for the authors:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find a new task. One that more closely mirrors actual research. Add in a few
+LaTeX-friendly items like a bibliography with a couple dozen citations. Or dealing with
+figures, tables, and cross-references when those things move around.&lt;/li&gt;
+  &lt;li&gt;Compare the ease of adapting an existing text to new requirements. That’s what research
+looks like when, say, a paper is rejected from one journal and must be submitted to a
+new one.&lt;/li&gt;
+  &lt;li&gt;Compare the different LaTeX tools. You mention in the article that the different tools
+are vastly different in capability. To quote: “Another characteristic of our study is
+that it is practically impossible to evaluate LaTeX without also evaluating the used
+editors.” You said it yourself. Do it.&lt;/li&gt;
+  &lt;li&gt;Please please please tone down your discussion section. I know it is tempting to
+extrapolate your findings to saving billions of dollars in wasted research time due to
+LaTeX, but the limitations of your current design simply don’t allow you to make those
+claims.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just because, in this one task Word performs better does not mean that you can throw LaTeX
+out with the bath water.&lt;/p&gt;</content><author><name></name></author><summary type="html">A recently published article in PLoS ONE, entitled “An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development” (link here) lit the world on fire. Okay, not really. In fact, most people, including researchers and even LaTeX enthusiasts have probably not read it. And that’s fine. Because it’s not very good. And I’m not the only one who thinks so.</summary></entry><entry><title type="html">LaTeX for Researchers, Part 3: Figures</title><link href="/blog/latex-for-researchers-pt-3-figures/" rel="alternate" type="text/html" title="LaTeX for Researchers, Part 3: Figures" /><published>2014-05-31T16:53:02+00:00</published><updated>2014-05-31T16:53:02+00:00</updated><id>/blog/latex-for-researchers-pt-3-figures</id><content type="html" xml:base="/blog/latex-for-researchers-pt-3-figures/">&lt;p&gt;If you’re just joining us, it’s probably best to start out with my first two
+posts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-1/&quot;&gt;Setting Up&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-2/&quot;&gt;Citations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that we’ve covered how to do create a document and how to add citations, the
+next major items we need to be able to put in a research manuscript are
+figures. First we’ll talk about differences between LaTeX and Word in how they
+handle figures. Then we’ll dig into how to include figures in our document.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;floats-in-latex&quot;&gt;Floats in LaTeX&lt;/h2&gt;
+
+&lt;p&gt;When you have a desire to put a figure or table into a Word document, you throw
+it in. Then you keep working on the document, and all of a sudden you have a
+figure on a page by itself with a half-empty page before it. Or even better, the
+formatting of the document is completely screwed up, and you’ve got text going
+all over the place (these are all personal experiences). And heaven forbid you
+want to change a picture, or remove the table. Odds are that will break
+everything forever.&lt;/p&gt;
+
+&lt;p&gt;LaTeX handles things a bit differently. There are several ways to handle tables
+and figures, but the most commonly used is to place them in a “float”
+environment. This gives LaTeX the freedom to place them in the place it thinks
+is best to make your document look as clean as possible. No pain of half-empty
+pages, and no broken formatting. And the best part is that it places them
+automatically each time you compile the document. So if you add a paragraph of
+text above a figure, LaTeX will figure out how that affects the placement to
+make it look nice.&lt;/p&gt;
+
+&lt;h2 id=&quot;figures-in-latex&quot;&gt;Figures in LaTeX&lt;/h2&gt;
+
+&lt;p&gt;Hopefully that description helps you understand what LaTeX is doing when you
+tell it to place an image into your file. Now we’ll cover how to place an image,
+and some of the settings you can tweak to make it look nice.&lt;/p&gt;
+
+&lt;p&gt;The first thing to note is that, since LaTeX documents are stored in text, you
+are obviously not going to embed the image in the file. For our example, we’ll
+create a directory in the same directory as our &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file and call it
+figs. Then we’ll point LaTeX to that directory using the following pair of
+commands in the preample:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\usepackage{graphicx}
+\graphicspath { {figs/} }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;graphicx&lt;/code&gt; package gives us useful features for including graphics, and the
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\graphicspath&lt;/code&gt; command tells LaTeX where the figures are stored. You could omit
+the &lt;code class=&quot;highlighter-rouge&quot;&gt;\graphicspath&lt;/code&gt; and just put the figures in the same directory with your
+&lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file, but things get cluttered that way. I find it best to keep them in a
+separate directory.&lt;/p&gt;
+
+&lt;p&gt;Now we’re all set up to add figures to our document. We just need some figures
+to add. LaTeX is pretty good about image formats, but I pretty much always use
+PNG for my figures and screenshots, so that’s what we’ll use now. For the
+example I’ll use
+&lt;a href=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/640px-Smiley.svg.png&quot;&gt;this smiley face&lt;/a&gt;
+that I’ve saved to my figs folder and named &lt;code class=&quot;highlighter-rouge&quot;&gt;smiley.png&lt;/code&gt;. When I want to include
+it in my document, I do so with the following code:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/rschuetzler/b16d49ca8ee29cde55ca.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Let’s deconstruct what exactly we have here. First off, we start a &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt;
+environment. This environment is a floating environment, so it takes the
+arguments associated with floats. The arguments I’ve chosed to include are
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ht&lt;/code&gt;. The
+&lt;a href=&quot;http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions&quot;&gt;LaTeX wikibook page on figures&lt;/a&gt;
+has an excellent explanation of what all possible arguments are for floats. Like
+I mentioned above, LaTeX wants your document to look nice. To do that, it has to
+have some freedom in where to place your figures. These arguments tell LaTeX
+what your preferences are, and it does its best to accommodate those. The &lt;code class=&quot;highlighter-rouge&quot;&gt;h&lt;/code&gt;
+argument says that you want this figure to appear approximately where you’ve
+placed it, if possible. &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt; says that you would like it at the top of the
+page. LaTeX takes these preferences into account, but may override them if it
+determines it will have a negative effect on the appearance of your document. If
+placing it at the bottom of the page will result in a huge empty space, LaTeX
+won’t do it. If you want to tell LaTeX to put a document exactly where you tell
+it to, use the &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt; argument with another, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;h!&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next we included the &lt;code class=&quot;highlighter-rouge&quot;&gt;\centering&lt;/code&gt; command. This is not necessary unless you want
+your figures centered. I do, so I almost always include it. The next command is
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\includegraphics&lt;/code&gt;, which takes one value, the name of the image you want to
+include. Finally, we end the figure environment with &lt;code class=&quot;highlighter-rouge&quot;&gt;\end{figure}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you compile the document, you’ll notice that the figure is ginormous. Often
+you will want to resize the image. If your default graphic is too large,
+you have several options for resizing. The first, and possibly most difficult is
+the &lt;code class=&quot;highlighter-rouge&quot;&gt;scale&lt;/code&gt; argument, which would be used as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\includegrpahics[scale=0.45]{smiley.png}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This shrinks the image to 0.45x its original size. You can also specify one
+dimension of the image and it will be proportionally scaled, like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\includegraphics[width=3in]{smiley.png}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We can even do fancy multiplication. If you want the graphic to be 1/2 the width
+of the text, just throw in:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\includegraphics[width=0.5\textwidth]{smiley.png}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will give you a figure in your document. Of course, that’s rarely all you
+want to do. Good style dictates that each figure be given a caption. LaTeX
+provides a way to do that by including a &lt;code class=&quot;highlighter-rouge&quot;&gt;\caption&lt;/code&gt; command inside the figure
+tags, like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\caption{This is our awesome smiley face}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Recompile the document and you will see that the caption has been added. If you
+put the &lt;code class=&quot;highlighter-rouge&quot;&gt;\caption&lt;/code&gt; above the &lt;code class=&quot;highlighter-rouge&quot;&gt;\includegraphics&lt;/code&gt; command, the caption will appear
+above the image in the document. If you put it below, it will appear
+below. LaTeX also numbers figures for you automatically, so if a new figure is
+inserted above, all subsequent figures will be renumbered appropriately.&lt;/p&gt;
+
+&lt;p&gt;Finally, you may also want to reference your figure in the text of your
+document. For this, LaTeX provides labels. These work similarly to Word’s
+cross-references, but they actually work and don’t break. You add a label
+(basically a name) to your figure like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.5\textwidth]{smiley.png}
+  \caption{Prototype system for embodied agent condition} 
+  \label{fig:agent}  % This is our new line
+\end{figure}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The content of the label can be whatever you want, but I recommend using a
+useful name. Since you can also use labels with tables and other numbered items,
+you might want to include the “fig:” as part of the name as we did here. Now if
+you want to reference that figure in the text, you can simply use the label name
+to reference it. Put the following snippet into the document to see it in
+action:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is me referencing Figure~\ref{fig:smile}.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;\ref&lt;/code&gt; automatically fills in the number of the image labeled
+fig:smile. That way when you add more figures or move things around, the
+reference in the text is always the same. I used the tilde &lt;code class=&quot;highlighter-rouge&quot;&gt;~&lt;/code&gt; to provide a
+non-breaking space. This means that there will never be a line break between the
+word Figure and the figure number. It’s just a good idea to keep things looking
+nice.&lt;/p&gt;
+
+&lt;p&gt;So here is the complete LaTeX file demonstrating how to caption, label,
+reference, and resize your images:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/rschuetzler/3e6030ad739fe2718ea3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And now you’ve got it. You have everything you need to make figures show up in
+your documents. It may not be as easy as adding them in Word, but it’s
+guaranteed to break a whole lot less often. If you want to do more, you can
+check out the LaTeX wiki’s guides to
+&lt;a href=&quot;http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics&quot;&gt;importing graphics&lt;/a&gt; and
+&lt;a href=&quot;http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions&quot;&gt;managing floats&lt;/a&gt;.
+Alternatively, leave a comment and I’d be happy to look into it. I’m always up
+for learning new things.&lt;/p&gt;</content><author><name></name></author><summary type="html">If you’re just joining us, it’s probably best to start out with my first two posts:</summary></entry><entry><title type="html">LaTeX for Researchers, Part 2: Citations</title><link href="/blog/latex-for-researchers-pt-2/" rel="alternate" type="text/html" title="LaTeX for Researchers, Part 2: Citations" /><published>2014-05-07T20:50:23+00:00</published><updated>2014-05-07T20:50:23+00:00</updated><id>/blog/latex-for-researchers-pt-2</id><content type="html" xml:base="/blog/latex-for-researchers-pt-2/">&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
+
+&lt;p&gt;In &lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-1/&quot;&gt;Part 1&lt;/a&gt; we
+covered the very basics of creating a document. With that you have basically
+everything you need to start writing your paper. Here’s a quick review of the
+basic commands:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;\documentclass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;article&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; is the first thing in your document, and it tells
+LaTeX you want to use the “article” style.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\title&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\author&lt;/code&gt; give LaTeX the basic information about your paper to
+put in the Title area.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\begin{document}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\end{document}&lt;/code&gt; are the beginning and ending of the
+content of your paper. Anything before the &lt;code class=&quot;highlighter-rouge&quot;&gt;\begin&lt;/code&gt; is part of the preamble.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\section&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;\subsection&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\subsubsection&lt;/code&gt; are the commands to create
+section headers. That’s imporant for styling your document.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A quick reminder here: the beauty of LaTeX comes from not worrying about the
+formatting while you write your document. I used to think this was weird, since
+I have to think about it when I put in the &lt;code class=&quot;highlighter-rouge&quot;&gt;\section&lt;/code&gt; or whatever other
+tags. But I was wrong. When you use a section tag, you are simply telling LaTeX
+&lt;em&gt;what&lt;/em&gt; it is, not how it should look. The template, in this case &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;,
+takes care of the looks for you. It also makes changing the formatting of a
+document a much more consistent process than if you instead said “I want these 3
+words to be 24pt font, bold, and with a 2 line break after.” Simply saying
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\section&lt;/code&gt; means you can change all section headers at the same time.&lt;/p&gt;
+
+&lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
+
+&lt;p&gt;One of the big issues when writing a research paper is citation management. For
+this reason, about 150 tools exist to help researchers get through it. You can
+use EndNote, Mendeley, Qiqqa, Zotero, Word’s built-in (blech!), or a gajillion
+other citation management packages to take care of it for you. Some of them work
+better than others, but I have yet to find one that doesn’t break for sometimes
+silly reasons. Sometimes the bibliography isn’t right, sometimes citations
+aren’t quite right, and I have never found one that works well when
+collaborating with a bunch of people.&lt;/p&gt;
+
+&lt;p&gt;So, why not use LaTeX? As with all things LaTeX, it’s going to take a bit of
+work to learn, but in the long run, the payoff in terms of reduced headaches,
+panic attacks, and nights spent crying wondering why you can’t change the title
+of this article to Title Case will make it all worthwhile. So let’s get started.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;p&gt;There are two basic requirements for citing papers in LaTeX: (1) a .bib file
+containing your references, and (2) the &lt;code class=&quot;highlighter-rouge&quot;&gt;biblatex&lt;/code&gt; package. You can use other
+packages to do citations, but &lt;code class=&quot;highlighter-rouge&quot;&gt;biblatex&lt;/code&gt; is robust, powerful, and easier to
+customize than the other common packages. I also recommend using the &lt;code class=&quot;highlighter-rouge&quot;&gt;Biber&lt;/code&gt;
+program, but we can get by without that for now.&lt;/p&gt;
+
+&lt;h3 id=&quot;bib-file&quot;&gt;.bib File&lt;/h3&gt;
+
+&lt;p&gt;So, the first thing you need is a .bib file that contains your references. Many
+programs will make this for you. For simplicity’s sake, let’s start out with
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Zotero&lt;/a&gt;. Zotero provides a relatively easy-to-use
+interface for creating references. It’s also free to use, and provides the
+ability to share libraries, which comes in handy when you’re collaborating with
+others. So download the Zotero program (standalone or the Firefox plugin) and
+create a few citations. I won’t go into detail how to do that here, but if you
+need help you can check out their tutorial on
+&lt;a href=&quot;https://www.zotero.org/support/getting_stuff_into_your_library&quot;&gt;adding things to your Zotero library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you have the citations created in Zotero, you can export them into a .bib
+file for use by BibLaTeX. To do this, highlight the citations you wish to
+export, then right-click and select “Export Items…”, select BibLaTeX from the
+drop-down menu, then click “OK” and select where you would like to place the
+file. You’ll want this file in the same directory as the .tex file we’ll create
+shortly. You can uncheck the boxes for Exporting Notes, Files, and Journal
+Abbreviations. The resulting file should look a bit like this:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/rschuetzler/847aaf3ab9a57ca05afa.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Since it will mostly be automatically generated, I won’t go into too much detail
+on the formatting, but there are a few tips I’ve come across for making your
+bibliography generation as easy as possible:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Put article titles in Title Case.&lt;/strong&gt; BibLaTeX can handle automatic
+de-captalization as required by formats like APA, but it cannot (at least
+that I’ve found) do capitalization for you. So make everything Title Case
+(initial caps) in your .bib file and you should be good to go.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use {} when you &lt;em&gt;need&lt;/em&gt; capitalization.&lt;/strong&gt; Things like acronymns or company
+names in titles might get messed up when BibLaTeX is formatting a
+document. To force BibLaTeX to keep capitalization on a word, surround it
+with {}. If you notice from my example, NJ in the location of the second
+reference is surrounded as such {NJ}. That means that, no matter what
+happens, NJ will always appear as NJ, and never nj or Nj.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;But don’t surround everything with {}.&lt;/strong&gt; You could go crazy and surround
+entire titles with double-braces (Mendeley currently does this and it
+sucks. If you do that, the title will always be capitalized exactly as it is
+in your .bib file. But that means that BibLaTeX can’t automatically change
+the capitalization when the style requires it. For this reason, use {} only
+when you have to.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So now we’ve got our .bib file, and we’re ready to start citing things.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-tex-file-preamble&quot;&gt;Your .tex File Preamble&lt;/h3&gt;
+
+&lt;p&gt;So before we get to cite things in the document, we’ve got to tell LaTeX that
+we’re going to be doing some citations. So let’s look at what we need in the
+preamble.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/rschuetzler/2f63228952bd79d77213.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;It looks a lot like our basic preamble, with a couple small additions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\usepackage[backend=bibtex,style=authoryear]{biblatex}&lt;/code&gt;. This tells LaTeX
+that we’ll be using the biblatex package to do our citations. It also tells
+it how we want them to be styled. As a social science researcher, I like to
+use author-year formats. Other options include &lt;code class=&quot;highlighter-rouge&quot;&gt;numeric&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;alphabetic&lt;/code&gt;, if
+you’re into that kind of thing.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\addbibresource{library.bib}&lt;/code&gt;. This tells BibLaTeX where my references are
+stored. Inside the braces is the name of the .bib file we created above. As I
+said, this should go in the same directory as the .tex file we’re creating
+right now.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that’s it. &lt;code class=&quot;highlighter-rouge&quot;&gt;biblatex&lt;/code&gt; has a bunch of options to customize the way your
+citations and references section look, so if you want to tweak things to look
+just right, take a look at the
+&lt;a href=&quot;http://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf&quot;&gt;biblatex documentation&lt;/a&gt;.
+Otherwise, let’s move on to how to actually cite things in our paper.&lt;/p&gt;
+
+&lt;h3 id=&quot;citing-things-in-tex&quot;&gt;Citing Things in .tex&lt;/h3&gt;
+
+&lt;p&gt;The most important thing to know when citing a paper from your .bib file is its
+cite key. That is the first string after the opening { of the reference. For
+example, the cite key for the first article in my .bib file is
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ackoff\_management\_1961&lt;/code&gt;. The cite key is how biblatex identifies which
+reference you are referring to.&lt;/p&gt;
+
+&lt;p&gt;Citing a paper is very simple and consistent. Biblatex offers just about every
+option you could need for citing, but all of them work the exact same way:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\command{}&lt;/code&gt; with a list of cite keys inside the braces. Here are some of the
+commands, and what they do:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\autocite{}&lt;/code&gt;. This will be your most used. This will create parenthetical
+citations if the style calls for it (like most author-year styles do), or
+include just the number if that’s what the style wants&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\textcite{}&lt;/code&gt;. This is another favorite. This one is used when you want the
+author(s)’ name(s) in the body of your document. For example, if I wanted
+“Achoff (1961) said that…” in my paper, I could just used
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\textcite{ackoff\_management\_1961} said that...&lt;/code&gt;. This way if my citation
+style changes, the citation is always done correctly.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\citeyear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\citeauthor&lt;/code&gt; can be used when you want to cite just the
+year or author, respectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are dozens of other commands available in biblatex, but these are the most
+commonly used (in my experience).&lt;/p&gt;
+
+&lt;p&gt;At the end of your document, you probably want to print a bibliography or
+references section. This is done with the &lt;code class=&quot;highlighter-rouge&quot;&gt;\printbibliography&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;So let’s look at an example, using the .bib from above as our bibliography. In
+this case, I’ve named it &lt;code class=&quot;highlighter-rouge&quot;&gt;blog.bib&lt;/code&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/rschuetzler/eb448d4943a9d63e4096.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;You can see a couple things here that we haven’t talked about yet.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Multiple citations&lt;/strong&gt;. Sometimes you need to cite a few papers at once. For
+that you can just use a comma to separate the cite keys. List them all in the
+same cite command and you’ll have them all together.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leaving citations out&lt;/strong&gt;. If you notice in my .bib file, I have a citation
+to a Bonini paper that does not appear anywhere in the .tex document. If a
+reference is not cited, it is left out of the reference section. This means
+that you can have one giant .bib file containing every reference to every
+paper you have ever seen, read, thought about, or heard of. It might make it
+a bit tougher to find what you’re looking for, but it won’t cause an
+explosion in your references section.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well, I think that about covers it. You now have the tools you need to
+automatically generate a bibliography as you are writing your master works. Next
+time we’ll cover how to insert figures and, if you’re lucky, tables.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-3-figures/&quot;&gt;Continue to Part 3: Figures&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Review</summary></entry><entry><title type="html">LaTeX for Researchers, Part 1: Setting up</title><link href="/blog/latex-for-researchers-pt-1/" rel="alternate" type="text/html" title="LaTeX for Researchers, Part 1: Setting up" /><published>2014-04-24T23:26:58+00:00</published><updated>2014-04-24T23:26:58+00:00</updated><id>/blog/latex-for-researchers-pt-1</id><content type="html" xml:base="/blog/latex-for-researchers-pt-1/">&lt;p&gt;So, I’ve already tried to make it clear that
+&lt;a href=&quot;http://www.schuetzler.net/blog/latex-icis-template/&quot;&gt;I really hate Word&lt;/a&gt; for
+creating academic documents. The biggest reason is that it frequently screws
+things up. So I use LaTeX, and I think you should too. Admittedly, it’s not
+always possible. Some journals, conferences, or other venues require submission
+in Word. Sometimes you have collaborators who absolutely will not go through the
+effort of learning LaTeX. But if you have the opportunity, I absolutely
+recommend that you use LaTeX.&lt;/p&gt;
+
+&lt;p&gt;Here are just a couple of the advantages of LaTeX:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Plain text source files. If something breaks, you only have to look through
+the plain text files to find and fix it. If something breaks in a Word
+document, you pretty much have to find an old version and then redo all your
+work.&lt;/li&gt;
+  &lt;li&gt;Version control. Version control is commonly thought of for source
+code. Programmers use it to keep track of changes, so that if things break
+they have a working version to fall back on. The same thing goes for LaTeX
+documents. You can create versions of your document as you go along, which
+allows you to keep old versions around without having 65 copies of the draft
+in your working directory.
+&lt;!-- more --&gt;&lt;/li&gt;
+  &lt;li&gt;Table and Figure cross-references. Oh boy is this a great one. Word tries to
+do this, but inevitably when you move things around, the cross-references
+will break. With LaTeX you can simply use the &lt;code class=&quot;highlighter-rouge&quot;&gt;\ref{}&lt;/code&gt; command to reference a
+table or figure by number. If the figures move around, the refs automatically
+update (like Word is supposed to).&lt;/li&gt;
+  &lt;li&gt;Citation management. There are a plethora of tools available for citation
+management in Word. EndNote, Zotero, Mendeley, Qiqqa, and probably a million
+others. Many of these tools also work with LaTeX. But even more importantly,
+citations don’t break in LaTeX. Because it’s all in plain text, there’s
+nothing to break.&lt;/li&gt;
+  &lt;li&gt;It’s just beautiful. Because LaTeX is a typesetting engine and not a word
+processor, it can do pretty things with your text like kerning (relevant
+&lt;a href=&quot;http://xkcd.com/1015/&quot;&gt;xkcd&lt;/a&gt;) and figure placement in much better ways than
+Word.&lt;/li&gt;
+  &lt;li&gt;Simple switching between formats. If you’ve set up your document correctly,
+you can switch between formats for different journals or publications
+extremely easily. That means that while you’re writing you can use one
+format, then bada-bing, bada-boom! you can transform it to a new format with
+the flip of a &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;\documentclass&lt;/span&gt;&lt;/code&gt; switch. Maybe Word magicians can make it
+happen there, but I’ve never seen it.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that’s just a few. Basically, LaTeX makes everything about creating a
+document for publication about 1.6 gazillion times better. Now, that’s not to
+say LaTeX is all peaches and cream. It has its downsides, too. Here are a few
+I’ve run into:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Conferences not accepting PDF. That’s a big bummer, and it pretty much means
+LaTeX is out. There are tools like pandoc and LaTeX2rtf to convert from LaTeX
+to RTF, which can then be converted to Word files, but in my experience it’s
+been more of a hassle than it’s worth. Too much of the formatting is lost in
+translation.&lt;/li&gt;
+  &lt;li&gt;Steep learning curve. LaTeX is a typesetting engine with a lot of
+power. Unfortunately with that power comes a lot of extra gunk. It takes time
+to learn the ins and outs, and it takes some time to even get started. Once
+you get over the hump, you’ll wish you never had to use Word again, and
+you’ll wonder why you ever did. But until then, you’ll probably spend a lot
+of time with Google.&lt;/li&gt;
+  &lt;li&gt;Collaborators may not want to learn. See downside #2.&lt;/li&gt;
+  &lt;li&gt;You have to compile to see your changes in action. LaTeX is a bit funny, in
+that you often have compile a document 2 or 3 times to get the desired
+result. Each run is doing something different: finding references, converting
+references, fixing references, etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This post (and hopefully series of posts) will be designed to teach you the
+basics of how to use LaTeX to write an academic article. My goal is to start
+with the basics, then slowly build up to a full-fledged journal paper, complete
+with figures, tables, cross-references, citations, and anything else you might
+need. If you have requests, put them in the comments and I can try to address
+them in future posts.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-downloading-latex&quot;&gt;Step 1: Downloading LaTeX&lt;/h2&gt;
+
+&lt;p&gt;The first thing you will need to get is a LaTeX distribution. The most
+common are &lt;a href=&quot;http://miktex.org/download&quot;&gt;MiKTeX&lt;/a&gt; (for Windows)
+&lt;a href=&quot;https://www.tug.org/texlive/&quot;&gt;TeX Live&lt;/a&gt; (for Windows and *nix), and
+&lt;a href=&quot;https://www.tug.org/mactex/&quot;&gt;MacTeX&lt;/a&gt; (for Mac). Each of these comes with a
+package manager that will install packages that you need on the fly. I highly
+recommend you enable this option in whichever distribution you use, because it
+will make your work much simpler, especially when you are getting started and
+using a whole bunch of new packages.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2-creating-your-first-article&quot;&gt;Step 2: Creating your first article&lt;/h2&gt;
+
+&lt;p&gt;Here I’ve created a &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file containing everything you’ll need to get
+started. Create your own file ending in &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt;, and make sure Windows isn’t
+automatically adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; to it. You can do it in TeXworks, the MiKTeX
+bundled TeX editor, by pressing File -&amp;gt; New. I’m not sure what editor, if any,
+comes with TeXLive, so you’re on your own until someone comments to tell me.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/rschuetzler/11290131.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The basic structure of a LaTeX document is as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Preamble. This holds all of the package information, function definitions,
+and the &lt;code class=&quot;highlighter-rouge&quot;&gt;documentclass&lt;/code&gt;.
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;\documentclass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt; tells LaTeX what kind of document you are creating. If
+you wanted to have chapters, you could use the &lt;code class=&quot;highlighter-rouge&quot;&gt;report&lt;/code&gt; class. Since we
+are creating a basic article, we will use the &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; class.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\title{This Is My First Document}&lt;/code&gt; tells LaTeX what the title of the
+document will be. This will be used in the &lt;code class=&quot;highlighter-rouge&quot;&gt;\maketitle&lt;/code&gt; command below&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\author{Ryan Schuetzler}&lt;/code&gt; is where you’ll put your name.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;document&lt;/code&gt; environment is where the body of the document will
+reside. This encompasses everything between &lt;code class=&quot;highlighter-rouge&quot;&gt;\begin{document}&lt;/code&gt; and
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\end{document}&lt;/code&gt;.
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\maketitle&lt;/code&gt; tells LaTeX to put the title of the document here. This is
+basically the header, and is defined by the &lt;code class=&quot;highlighter-rouge&quot;&gt;documentclass&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\section{}&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;\subsection{}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\subsubsection{}&lt;/code&gt; are the three levels
+of section headings available in LaTeX. They basically correspond to
+Heading 1, 2, and 3 in Word. If you want to go even deeper, you can use
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\paragraph{}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\subparagraph{}&lt;/code&gt;, but maybe you should first consider
+whether you really want to go that far down in headings.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the document environment, paragraphs are separated by an empty line of
+text. You can put as many sentences as you want on one line, and LaTeX will
+automatically format them as a single paragraph. My preferred method, however,
+is to create new lines every ~80 characters. As long as they are all together,
+LaTeX will format them as one paragraph.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3-compile&quot;&gt;Step 3: Compile&lt;/h2&gt;
+
+&lt;p&gt;Once you’ve created your &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file, compile it with pdfLaTeX. I default in
+MiKTeX to using the pdfLaTeX+MakeIndex+BibTeX compilation, since that will
+usually run everything I need. Press the green button that looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/LBszbx7.png&quot; alt=&quot;Compile that sucker!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assuming that worked, you’re done! You have successfully compiled your first
+LaTeX article. And you have everything you need to begin creating a document of
+your own. Create your headers, add some text, and watch LaTeX work its
+magic. Don’t worry about the specifics of formatting for now. If you don’t like
+the section numbers, or the indentation of paragraphs, or the date in the title,
+that’s fine. All of that can be changed later, independent of the actual text
+you write. So get started!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.schuetzler.net/blog/latex-for-researchers-pt-2/&quot;&gt;Continue on to Part 2: Citations&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">So, I’ve already tried to make it clear that I really hate Word for creating academic documents. The biggest reason is that it frequently screws things up. So I use LaTeX, and I think you should too. Admittedly, it’s not always possible. Some journals, conferences, or other venues require submission in Word. Sometimes you have collaborators who absolutely will not go through the effort of learning LaTeX. But if you have the opportunity, I absolutely recommend that you use LaTeX.</summary></entry><entry><title type="html">LaTeX ICIS Template</title><link href="/blog/latex-icis-template/" rel="alternate" type="text/html" title="LaTeX ICIS Template" /><published>2014-03-06T19:50:38+00:00</published><updated>2014-03-06T19:50:38+00:00</updated><id>/blog/latex-icis-template</id><content type="html" xml:base="/blog/latex-icis-template/">&lt;p&gt;As most everyone who works with me knows, I’m a huge advocate of LaTeX. If not
+for LaTeX, at least a huge opponent of Word. Word is sometimes okay if you’re
+doing a simple document without a lot of formatting, but once I start dealing
+with formatting a large document according to some specification, things always
+seem to go downhill. I’ll press enter in the wrong place and all of a sudden my
+entire paragraph is formatted as a section header. Or a number list will decide
+to continue from previously, or not continue, depending on Word’s temperament
+that day.&lt;/p&gt;
+
+&lt;p&gt;That is why I love LaTeX. It has a pretty steep startup cost (in terms of time),
+but the benefits in longer documents or with fancier formatting are huge. I love
+the way a LaTeX document looks, and most importantly I love that if something is
+screwed up in my document, I can fix it. If something isn’t behaving how I want,
+I go back to the document and figure out what’s going on. I’m no longer at the
+mercy of Word’s formatter.&lt;/p&gt;
+
+&lt;p&gt;I’m currently preparing a few documents for submission to the
+&lt;a href=&quot;http://icis2014.aisnet.org/&quot;&gt;International Conference on Information Systems&lt;/a&gt;
+(ICIS). The good folks at ICIS have allowed PDF submissions, which is
+unfortunately not true for some others. Unfortunately, they only provide the
+document specifications in a Word template. So I took this as an opportunity to
+expand my skills and achieve LaTeX ninja-hood. Rather than deal with Word’s
+template and its formatting issues, I decided to create a special document class
+for ICIS this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;Currently it’s a work in progress, but it’s nearly complete. The only remaining
+task is to get bibtex to properly format citations. ICIS has elected to use the
+MISQ citation style rather than a standard style like Chicago or APA, so I’ll
+get to dig into the depths of bibtex to get those formatted correctly.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;In the meantime, it’s a fully functioning template. Download it from Github at
+the link below, take it for a spin, and let me know if you run into any
+problems. Any bugs would just be further opportunity to learn about the
+details of LaTeX.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rschuetzler/latex-icis-template&quot;&gt;LaTeX ICIS template on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;UPDATE: The MISQ citation format has been added. It has handled books, articles,
+proceedings, and collections that I’ve thrown at it. Please let me know if you
+find anything that breaks.&lt;/p&gt;</content><author><name></name></author><summary type="html">As most everyone who works with me knows, I’m a huge advocate of LaTeX. If not for LaTeX, at least a huge opponent of Word. Word is sometimes okay if you’re doing a simple document without a lot of formatting, but once I start dealing with formatting a large document according to some specification, things always seem to go downhill. I’ll press enter in the wrong place and all of a sudden my entire paragraph is formatted as a section header. Or a number list will decide to continue from previously, or not continue, depending on Word’s temperament that day.</summary></entry><entry><title type="html">Using Git and Bitbucket for Collaborative Research</title><link href="/blog/intro-to-using-git-and-bitbucket-for-collaboration/" rel="alternate" type="text/html" title="Using Git and Bitbucket for Collaborative Research" /><published>2013-12-01T00:00:00+00:00</published><updated>2013-12-01T00:00:00+00:00</updated><id>/blog/intro-to-using-git-and-bitbucket-for-collaboration</id><content type="html" xml:base="/blog/intro-to-using-git-and-bitbucket-for-collaboration/">&lt;p&gt;I have been trying for a few years to get my coworkers to work on projects
+together using Git repositories for version control, and usually to varying
+levels of success. I finally took the time to hammer out a beginner’s guide to
+collaborating with git, using Github for Windows as the software interface and
+Bitbucket as the online repo host.&lt;/p&gt;
+
+&lt;p&gt;I chose Github for Windows because it’s easy to use and it’s pretty. Also, it
+works just as well with Bitbucket repositories as it does with Github repos. I
+use Bitbucket mostly because it lets me have as many private repos as I need for
+free. That way if I have information or stats that I don’t feel like sharing
+with the world just yet, I can keep them private.&lt;/p&gt;
+
+&lt;p&gt;As a newbie to Git myself, it was good for me to write these things down so I
+can understand what’s going on a little better. Also, I have never quite found a
+guide that explained how to actually collaborate in a way that made sense to
+me. Hopefully this will do the trick.&lt;/p&gt;
+
+&lt;p&gt;So here’s the guide. Feel free to use this for your own projects, or to
+introduce the git workflow to colleagues. I’ll probably add to this as I learn
+more and better understand common problems.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download and install Github&lt;/li&gt;
+  &lt;li&gt;Create Bitbucket account&lt;/li&gt;
+  &lt;li&gt;Add Github SSH keys to Bitbucket account&lt;/li&gt;
+  &lt;li&gt;Log into Bitbucket&lt;/li&gt;
+  &lt;li&gt;Click your profile picture –&amp;gt; Manage account&lt;/li&gt;
+  &lt;li&gt;From the left menu, select SSH Keys&lt;/li&gt;
+  &lt;li&gt;Click the button to Import keys from Github&lt;/li&gt;
+  &lt;li&gt;Clone the bitbucket repository to somewhere on your computer&lt;/li&gt;
+  &lt;li&gt;Open the Git Shell installed by Github (or another one if you’d rather)&lt;/li&gt;
+  &lt;li&gt;Navigate Unix-style (cd) to the directory you want the repository to be
+  in. Actually do the directory above that. Git clone will create a directory
+  for the repository. Don’t use the shared Dropbox folder. We don’t want
+  multiple people committing to the same copy of the repository. That will cause
+  problems.&lt;/li&gt;
+  &lt;li&gt;Get the URL for the repository from Bitbucket
+  &lt;img src=&quot;http://i.imgur.com/lWycXqt.png&quot; alt=&quot;Repository URL&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Type the command &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone repoURL [FOLDER NAME]&lt;/code&gt;, replacing [FOLDER NAME]
+with the name you want to directory to have.&lt;/li&gt;
+  &lt;li&gt;Add the repository to Github by opening the Github program and dragging the
+folder onto the window.&lt;/li&gt;
+  &lt;li&gt;Boom! You now have copy of the project folder, all gitified and everything.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;editing-stuff&quot;&gt;Editing stuff&lt;/h2&gt;
+&lt;p&gt;Working with version control will be a little bit different from working with
+files in Dropbox or something. We’ll go into the process in depth here.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started&quot;&gt;Getting started&lt;/h3&gt;
+
+&lt;p&gt;The first step to keeping things clean and nice is to create the branch you will
+be working on.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open Github for Windows and double-click the repository.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make note of the sync status in the upper-right corner (red box). Also
+double-check the branch you are current on (blue box).
+&lt;img src=&quot;http://i.imgur.com/Svaoeyl.png&quot; alt=&quot;Starting up&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If your repository is out of date, meaning more updates have been posted to
+Bitbucket, you will see a blue down arrow next to the sync button. Press sync to
+pull down all changes.  &lt;img src=&quot;http://i.imgur.com/nj1WRAG.png&quot; alt=&quot;Repo out of date&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;It’s definitely best to not do your main work on the Master branch. This will
+be the definitive version, but while you’re working you can keep drafts in
+another branch to keep things from getting muddled if others are adding
+stuff. Create a branch by clicking the master button in the top right and
+entering the name of your branch. You can name it whatever you like, but
+either your name or the current feature you are working on are good
+names. Make it something understandable.&lt;/li&gt;
+  &lt;li&gt;Now you’re set to work. You should have the most up-to-date stuff from the
+server, and your own branch to work on.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;commits-while-working&quot;&gt;Commits while working&lt;/h3&gt;
+
+&lt;p&gt;It is good VC practice to not only commit when you are done working, but in the
+middle as well. That way if you mess something up you can easily go back to
+where you were. Here are the steps you can take while you are working on a
+project.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open the Github program.&lt;/li&gt;
+  &lt;li&gt;Open the repository you are working on.&lt;/li&gt;
+  &lt;li&gt;You will see a list of all files that have changed since you began
+working. Click the little arrow to the left of the filename to view the
+changes. Additions are highlighted in green, while deletions are highlighted in
+red. Changes to a line will show as the deletion of the old version and the
+addition of the new.  &lt;img src=&quot;http://i.imgur.com/f8qwB8o.png&quot; alt=&quot;Committing&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Select the files that you would like to commit. It’s best to combine changes
+that are doing the same thing to one commit, but separate unrelated changes to
+multiple files into several commits.  \t1. If you’ve made a change you want to
+get rid of, you can discard the changes and revert to the last committed version
+of the file by right-clicking the file and choosing “Discard changes.” Be
+careful when doing this, as all of your changes to that file will be lost.&lt;/li&gt;
+  &lt;li&gt;Type a commit message in the box on the left. This message should be a short
+description of the change, written in the imperative (e.g., “Fix bug”
+rather than “Fixed bug” or “Fixes bug.”&lt;/li&gt;
+  &lt;li&gt;Type a longer description of the change in the box below if necessary. If the
+change can be summarized with just the commit message, that’s fine, but if
+you’re doing anything fancy, be sure to explain the change in the commit
+message.&lt;/li&gt;
+  &lt;li&gt;If you want, you can publish your branch to Bitbucket by clicking the Publish
+button. You can also keep that branch to yourself if you’d rather not
+share. Since we’ll be merging our own changes into Master, there’s no need to
+push things up, but it can be helpful if you want somebody else to look at
+your branch.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;merging-branches&quot;&gt;Merging branches&lt;/h3&gt;
+
+&lt;p&gt;Once you’ve finished changing things for this session, it’s time to merge your
+changes into the main branch. Since we all have access to do this in the main
+branch, we’ll go through how to do it here. You’ll only want to merge things
+that are working. If you merge changes to master that give error messages,
+that’s called “breaking the build,” and you owe the team lunch. Or something.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make sure all your changes on your own branch have been committed or
+discarded.&lt;/li&gt;
+  &lt;li&gt;Switch back to the master branch by clicking the branch button in the top
+right.&lt;/li&gt;
+  &lt;li&gt;Re-sync any changes to the master branch to make sure any changes somebody
+else has made are synced to your computer.&lt;/li&gt;
+  &lt;li&gt;Open the manage/merge menu from the branches menu.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/2Iy6UuF.png&quot; alt=&quot;Manage merge&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Drag your branch to the first box in the “merge” area at the bottom.&lt;/li&gt;
+  &lt;li&gt;Drag the master branch to the second box. master should appear in the blue
+box to the right.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/o5NpTt8.png&quot; alt=&quot;Merging&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click “merge” to merge your changes.&lt;/li&gt;
+  &lt;li&gt;Press the sync button to push your changes to the Bitbucket repository so
+everyone can see them.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well, that should cover the simplest uses of git, Github, and Bitbucket. If we
+run into problems as the project progresses, I can update this guide as we
+figure out how to deal with them. This will be the first time for most of us
+using Git for any sort of collaboration, so it’ll be a learning adventure for
+all of us.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have been trying for a few years to get my coworkers to work on projects together using Git repositories for version control, and usually to varying levels of success. I finally took the time to hammer out a beginner’s guide to collaborating with git, using Github for Windows as the software interface and Bitbucket as the online repo host.</summary></entry><entry><title type="html">Why I left Qiqqa for Mendeley</title><link href="/blog/why-i-love-mendeley/" rel="alternate" type="text/html" title="Why I left Qiqqa for Mendeley" /><published>2013-11-02T00:00:00+00:00</published><updated>2013-11-02T00:00:00+00:00</updated><id>/blog/why-i-love-mendeley</id><content type="html" xml:base="/blog/why-i-love-mendeley/">&lt;p&gt;I love software that makes my life easier. As an academic, I do a lot of
+reading. I read a lot (I mean a lot) of PDF articles on a huge variety of
+topics. I have a virtual stack of papers that would probably reach half-way to
+Phoenix and cost a forest if I printed them all out. Of course I’ll never get to
+read them all, but just in case.&lt;/p&gt;
+
+&lt;p&gt;So as a new student of academia, I started looking for a good way to organize my
+files. Surely there must be a better system than storing random PDFs in whatever
+nonsensical names their publishers give them in a million places on my hard
+drive. That’s when I first discovered &lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt;. It
+was a dream come true.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Mendeley is a cross-platform software program for managing research. It can
+consolidate files into a single directory, manage metadata for each article,
+search the metadata, tag and highlight PDFs, and a whole bunch
+more. Additionally it can sync all that data to a BibTeX file for easy inclusion
+in a paper. On top of all this, it provides a cloud syncing functionality to
+keep your information consistent across devices.&lt;/p&gt;
+
+&lt;p&gt;After a few months with Mendeley I discovered
+&lt;a href=&quot;http://www.qiqqa.com&quot;&gt;Qiqqa&lt;/a&gt;. Qiqqa was sexy. Qiqqa was newer. Qiqqa had more
+features. Qiqqa could highlight with different colors. Qiqqa could OCR my
+documents to allow me to search ugly old PDFs. Qiqqa had neat brainstorming
+tools (that it turns out I never ever used). The biggest reason I switched is
+that I like software that is being actively developed, and Qiqqa was. Mendeley
+seemed to have stagnated, with no real new features in the months I’d been using
+it. Qiqqa had a new release every month with cool stuff that I could actually
+use.&lt;/p&gt;
+
+&lt;p&gt;But after spending almost 2 years as a Qiqqa user, I’m switching back. I was a
+Qiqqa Premium user for over a year, but when my premium subscription ran out, I
+felt it was time to move on. The interface felt too bloated. The features I
+loved (like multi-color highlights) were just not enough to keep me there. I
+also felt that in the years I’d been using it, Qiqqa had spent more time
+developing features I didn’t care about and added fewer and fewer things I did.&lt;/p&gt;
+
+&lt;p&gt;So I’m back with Mendeley now. UA has purchased a site license to give me extra
+storage and a few cool features. It’s still not perfect, but it’s good enough
+for free. In case Mendeley is listening, here are some killer features I want,
+in order of awesomeness:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get smarter about gathering metadata. I have to correct the data about 75% of
+the time.&lt;/li&gt;
+  &lt;li&gt;Make a Papers-esque ability to grab BibTeX keys from
+anywhere. Writing a paper in LaTeX and inserting citations could be seamlessly
+integrated with my synced BibTex file.&lt;/li&gt;
+  &lt;li&gt;Highlights should appear in the notes section&lt;/li&gt;
+  &lt;li&gt;Qiqqa’s hierarchical tags were pretty neat. The ability to
+drill down within a set of tagged documents is a cool feature.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I love software that makes my life easier. As an academic, I do a lot of reading. I read a lot (I mean a lot) of PDF articles on a huge variety of topics. I have a virtual stack of papers that would probably reach half-way to Phoenix and cost a forest if I printed them all out. Of course I’ll never get to read them all, but just in case.</summary></entry></feed>

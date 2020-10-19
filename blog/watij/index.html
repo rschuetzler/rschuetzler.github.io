@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>QA tool review: Watij | Schuetzler.net</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="QA tool review: Watij" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Description Watij (pronounced wattage) stands for Web Application Testing in Java. Watij is a pure Java API created to allow for the automation of web applications. Based on the simplicity of Watir and enhanced by the power of Java, Watij automates functional testing of web applications through a real browser. Currently Watij supports automating Internet Explorer on Windows only. Future plans are in place to support others like Mozilla. Overview Pros Automatically waits for new pages to load Cons No record function to record/playback test scripts No support for drag/drop in websites IE-only Pricing Free! And open source! Ease of Use Ease of Installation Maybe it’s just because I was using 64-bit Windows 7, but I had all kinds of problems getting Watij to start working. At first the files that were supposed to be copied by the beanshell bat file didn’t copy. Then it turned out that none of it worked in 64-bit Java, so I had to install 32-bit Java and Eclipse. Then opening the Beanshell window and entering the example script from the Watij website didn’t work." />
+<meta property="og:description" content="Description Watij (pronounced wattage) stands for Web Application Testing in Java. Watij is a pure Java API created to allow for the automation of web applications. Based on the simplicity of Watir and enhanced by the power of Java, Watij automates functional testing of web applications through a real browser. Currently Watij supports automating Internet Explorer on Windows only. Future plans are in place to support others like Mozilla. Overview Pros Automatically waits for new pages to load Cons No record function to record/playback test scripts No support for drag/drop in websites IE-only Pricing Free! And open source! Ease of Use Ease of Installation Maybe it’s just because I was using 64-bit Windows 7, but I had all kinds of problems getting Watij to start working. At first the files that were supposed to be copied by the beanshell bat file didn’t copy. Then it turned out that none of it worked in 64-bit Java, so I had to install 32-bit Java and Eclipse. Then opening the Beanshell window and entering the example script from the Watij website didn’t work." />
+<link rel="canonical" href="/blog/watij/" />
+<meta property="og:url" content="/blog/watij/" />
+<meta property="og:site_name" content="Schuetzler.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-12-18T00:00:00+00:00" />
+<script type="application/ld+json">
+{"headline":"QA tool review: Watij","dateModified":"2009-12-18T00:00:00+00:00","datePublished":"2009-12-18T00:00:00+00:00","description":"Description Watij (pronounced wattage) stands for Web Application Testing in Java. Watij is a pure Java API created to allow for the automation of web applications. Based on the simplicity of Watir and enhanced by the power of Java, Watij automates functional testing of web applications through a real browser. Currently Watij supports automating Internet Explorer on Windows only. Future plans are in place to support others like Mozilla. Overview Pros Automatically waits for new pages to load Cons No record function to record/playback test scripts No support for drag/drop in websites IE-only Pricing Free! And open source! Ease of Use Ease of Installation Maybe it’s just because I was using 64-bit Windows 7, but I had all kinds of problems getting Watij to start working. At first the files that were supposed to be copied by the beanshell bat file didn’t copy. Then it turned out that none of it worked in 64-bit Java, so I had to install 32-bit Java and Eclipse. Then opening the Beanshell window and entering the example script from the Watij website didn’t work.","url":"/blog/watij/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/watij/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Schuetzler.net" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Schuetzler.net</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">QA tool review: Watij</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2009-12-18T00:00:00+00:00" itemprop="datePublished">Dec 18, 2009
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 style="text-align: center; ">Description</h1>
+<p><span style="font-weight: normal; font-size: 13px; "><strong>Watij</strong> (<em>pronounced wattage</em>) stands for Web Application Testing in Java. <strong>Watij</strong> is a pure Java <acronym>API</acronym> created to allow for the automation of web applications. Based on the simplicity of <a title="http://wtr.rubyforge.org/" href="http://wtr.rubyforge.org/">Watir</a> and enhanced by the power of Java, <strong>Watij</strong> automates functional testing of web applications through a real browser. Currently <strong>Watij</strong> supports automating Internet Explorer on Windows only. Future plans are in place to support others like Mozilla.</span></p>
+<h1 style="text-align: center; ">Overview</h1>
+<h2>Pros</h2>
+<ul>
+	<li>Automatically waits for new pages to load</li>
+</ul>
+<h2>Cons</h2>
+<ul>
+	<li>No record function to record/playback test scripts</li>
+	<li>No support for drag/drop in websites</li>
+	<li>IE-only<!--more--></li>
+</ul>
+<h2>Pricing</h2>
+<p>Free! And open source!</p>
+<h1 style="text-align: center;">Ease of Use</h1>
+<h2>Ease of Installation</h2>
+<p>Maybe it’s just because I was using 64-bit Windows 7, but I had all kinds of problems getting Watij to start working. At first the files that were supposed to be copied by the beanshell bat file didn’t copy. Then it turned out that none of it worked in 64-bit Java, so I had to install 32-bit Java and Eclipse. Then opening the Beanshell window and entering the example script from the Watij website didn’t work.<strong> </strong></p>
+
+<p>Finally, after removing 64-bit Java and Eclipse and installing 32-bit in its place, it worked.</p>
+<h2>Setting up a Test</h2>
+<p>Setting up simple tests is a fairly easy process. The following is an example of a simple test that opens a Google page, enters text, and clicks the search button. Obviously you have to have all the necessary dependencies added to your project:</p>
+
+<p><code>import static watij.finders.SymbolFactory.*;
+import static org.junit.Assert.*;
+import watij.runtime.ie.*;
+public class Tests {
+IE ie = new IE();
+ie.textField(name, “q”).set(“Watij”);
+ie.button(name, “btnG”).click();
+assertTrue(ie.containsText(“Web Application Testing in Java”)); }</code></p>
+<h2>Running a Test</h2>
+<p>Once you have a test set up in JUnit or TestNG, running it is easy. Just run it. <strong> </strong></p>
+<h2>Technical Knowledge Needed</h2>
+<p>You have to be able to figure things out from the user guide, because beyond that, there is no documentation. The programming of tests doesn’t require a lot of skill.<strong> </strong></p>
+<h1 style="text-align: center;">Functionality</h1>
+<h2>Recording a test</h2>
+<p>Not possible. All tests must be coded by hand.<strong> </strong></p>
+<h2>Scripting</h2>
+<p>All of the testing is done with custom scripts. There is no recorder or GUI available.<strong> </strong></p>
+<h2>Reporting</h2>
+<p>The reporting is done using the testing framework. Watij was designed to be used with JUnit, but can also be used with TestNG (or others, I suppose).<strong> </strong></p>
+<h2>Browser Support</h2>
+<p>Watij is currently only compatible with Internet Explorer.</p>
+<h2>Data Functions</h2>
+<p>Since all the tests are run using Java (or BeanShell, supposedly; I couldn’t get it to work), you can do anything that Java can do. That includes pulling data from CSV files, iteration, and conditions.<strong> </strong></p>
+<h2>Documentation</h2>
+<p>In all honesty, the documentation for Watij is scant. There is a decent user guide to provide a simple getting started tutorial. There is also an API, but there is no documentation there besides the default stuff generated by IntelliJ. Any search that I did for support with problems I had turned up pretty fruitless. Even the Google Group dedicated to Watij (<a href="http://groups.google.com/group/watij">link</a>) has very little information about anything.<strong> </strong></p>
+<h2>User Interface</h2>
+<p>N/A<strong></strong></p>
+<h2>Bugs/Weirdness</h2>
+<ul>
+	<li>Watij automatically detects when a page has loaded successfully. Unfortunately this sometimes doesn’t work. Specifically, Watij never recognized that the Intranet home page loaded successfully. This may be an issue for other pages as well.</li>
+</ul>
+<h1 style="text-align: center;">Project Info</h1>
+<h2>History</h2>
+<p>Watij came to be because there were Java people who wanted to run tests like those possible in <a href="http://wtr.rubyforge.org/">Watir</a> without having to learn Ruby. There isn’t much information available on when the project started, or even who is running it.</p>
+<h2>Frequency of Releases</h2>
+<p>The most recent version of Watij (3.2.1) was released in Jan, 2008. It appears to be an even-years-only project, since extensive work was done on the 1.1, 2.x &amp; 3.1.x versions in 2006, then a little work was done in 2008 for version 3.2.x. Perhaps in 2010 we can look forward to more updates.</p>
+<h2>Active Forums</h2>
+<h3>Official Forums</h3>
+<ul>
+	<li><a href="http://groups.google.com/group/watij" target="_blank">http://groups.google.com/group/watij</a></li>
+</ul>
+<h2>Company URL</h2>
+<p><a href="http://watij.com/">http://watij.com/</a><strong></strong></p>
+
+  </div><a class="u-url" href="/blog/watij/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Schuetzler.net</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Schuetzler.net</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

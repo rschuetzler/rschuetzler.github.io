@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>LaTeX for Researchers, Part 2: Citations | Schuetzler.net</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="LaTeX for Researchers, Part 2: Citations" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Review" />
+<meta property="og:description" content="Review" />
+<link rel="canonical" href="/blog/latex-for-researchers-pt-2/" />
+<meta property="og:url" content="/blog/latex-for-researchers-pt-2/" />
+<meta property="og:site_name" content="Schuetzler.net" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-05-07T20:50:23+00:00" />
+<script type="application/ld+json">
+{"headline":"LaTeX for Researchers, Part 2: Citations","dateModified":"2014-05-07T20:50:23+00:00","datePublished":"2014-05-07T20:50:23+00:00","description":"Review","url":"/blog/latex-for-researchers-pt-2/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/latex-for-researchers-pt-2/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Schuetzler.net" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Schuetzler.net</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">LaTeX for Researchers, Part 2: Citations</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2014-05-07T20:50:23+00:00" itemprop="datePublished">May 7, 2014
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="review">Review</h2>
+
+<p>In <a href="http://www.schuetzler.net/blog/latex-for-researchers-pt-1/">Part 1</a> we
+covered the very basics of creating a document. With that you have basically
+everything you need to start writing your paper. Here’s a quick review of the
+basic commands:</p>
+
+<ol>
+  <li><code class="highlighter-rouge"><span class="k">\documentclass</span><span class="p">{</span>article<span class="p">}</span></code> is the first thing in your document, and it tells
+LaTeX you want to use the “article” style.</li>
+  <li><code class="highlighter-rouge">\title</code> and <code class="highlighter-rouge">\author</code> give LaTeX the basic information about your paper to
+put in the Title area.</li>
+  <li><code class="highlighter-rouge">\begin{document}</code> and <code class="highlighter-rouge">\end{document}</code> are the beginning and ending of the
+content of your paper. Anything before the <code class="highlighter-rouge">\begin</code> is part of the preamble.</li>
+  <li><code class="highlighter-rouge">\section</code>, <code class="highlighter-rouge">\subsection</code> and <code class="highlighter-rouge">\subsubsection</code> are the commands to create
+section headers. That’s imporant for styling your document.</li>
+</ol>
+
+<p>A quick reminder here: the beauty of LaTeX comes from not worrying about the
+formatting while you write your document. I used to think this was weird, since
+I have to think about it when I put in the <code class="highlighter-rouge">\section</code> or whatever other
+tags. But I was wrong. When you use a section tag, you are simply telling LaTeX
+<em>what</em> it is, not how it should look. The template, in this case <code class="highlighter-rouge">article</code>,
+takes care of the looks for you. It also makes changing the formatting of a
+document a much more consistent process than if you instead said “I want these 3
+words to be 24pt font, bold, and with a 2 line break after.” Simply saying
+<code class="highlighter-rouge">\section</code> means you can change all section headers at the same time.</p>
+
+<h2 id="citations">Citations</h2>
+
+<p>One of the big issues when writing a research paper is citation management. For
+this reason, about 150 tools exist to help researchers get through it. You can
+use EndNote, Mendeley, Qiqqa, Zotero, Word’s built-in (blech!), or a gajillion
+other citation management packages to take care of it for you. Some of them work
+better than others, but I have yet to find one that doesn’t break for sometimes
+silly reasons. Sometimes the bibliography isn’t right, sometimes citations
+aren’t quite right, and I have never found one that works well when
+collaborating with a bunch of people.</p>
+
+<p>So, why not use LaTeX? As with all things LaTeX, it’s going to take a bit of
+work to learn, but in the long run, the payoff in terms of reduced headaches,
+panic attacks, and nights spent crying wondering why you can’t change the title
+of this article to Title Case will make it all worthwhile. So let’s get started.</p>
+
+<!-- more -->
+<h3 id="requirements">Requirements</h3>
+
+<p>There are two basic requirements for citing papers in LaTeX: (1) a .bib file
+containing your references, and (2) the <code class="highlighter-rouge">biblatex</code> package. You can use other
+packages to do citations, but <code class="highlighter-rouge">biblatex</code> is robust, powerful, and easier to
+customize than the other common packages. I also recommend using the <code class="highlighter-rouge">Biber</code>
+program, but we can get by without that for now.</p>
+
+<h3 id="bib-file">.bib File</h3>
+
+<p>So, the first thing you need is a .bib file that contains your references. Many
+programs will make this for you. For simplicity’s sake, let’s start out with
+<a href="https://www.zotero.org/">Zotero</a>. Zotero provides a relatively easy-to-use
+interface for creating references. It’s also free to use, and provides the
+ability to share libraries, which comes in handy when you’re collaborating with
+others. So download the Zotero program (standalone or the Firefox plugin) and
+create a few citations. I won’t go into detail how to do that here, but if you
+need help you can check out their tutorial on
+<a href="https://www.zotero.org/support/getting_stuff_into_your_library">adding things to your Zotero library</a>.</p>
+
+<p>Once you have the citations created in Zotero, you can export them into a .bib
+file for use by BibLaTeX. To do this, highlight the citations you wish to
+export, then right-click and select “Export Items…”, select BibLaTeX from the
+drop-down menu, then click “OK” and select where you would like to place the
+file. You’ll want this file in the same directory as the .tex file we’ll create
+shortly. You can uncheck the boxes for Exporting Notes, Files, and Journal
+Abbreviations. The resulting file should look a bit like this:</p>
+
+<script src="https://gist.github.com/rschuetzler/847aaf3ab9a57ca05afa.js"></script>
+
+<p>Since it will mostly be automatically generated, I won’t go into too much detail
+on the formatting, but there are a few tips I’ve come across for making your
+bibliography generation as easy as possible:</p>
+
+<ol>
+  <li><strong>Put article titles in Title Case.</strong> BibLaTeX can handle automatic
+de-captalization as required by formats like APA, but it cannot (at least
+that I’ve found) do capitalization for you. So make everything Title Case
+(initial caps) in your .bib file and you should be good to go.</li>
+  <li><strong>Use {} when you <em>need</em> capitalization.</strong> Things like acronymns or company
+names in titles might get messed up when BibLaTeX is formatting a
+document. To force BibLaTeX to keep capitalization on a word, surround it
+with {}. If you notice from my example, NJ in the location of the second
+reference is surrounded as such {NJ}. That means that, no matter what
+happens, NJ will always appear as NJ, and never nj or Nj.</li>
+  <li><strong>But don’t surround everything with {}.</strong> You could go crazy and surround
+entire titles with double-braces (Mendeley currently does this and it
+sucks. If you do that, the title will always be capitalized exactly as it is
+in your .bib file. But that means that BibLaTeX can’t automatically change
+the capitalization when the style requires it. For this reason, use {} only
+when you have to.</li>
+</ol>
+
+<p>So now we’ve got our .bib file, and we’re ready to start citing things.</p>
+
+<h3 id="your-tex-file-preamble">Your .tex File Preamble</h3>
+
+<p>So before we get to cite things in the document, we’ve got to tell LaTeX that
+we’re going to be doing some citations. So let’s look at what we need in the
+preamble.</p>
+
+<script src="https://gist.github.com/rschuetzler/2f63228952bd79d77213.js"></script>
+
+<p>It looks a lot like our basic preamble, with a couple small additions:</p>
+
+<ol>
+  <li><code class="highlighter-rouge">\usepackage[backend=bibtex,style=authoryear]{biblatex}</code>. This tells LaTeX
+that we’ll be using the biblatex package to do our citations. It also tells
+it how we want them to be styled. As a social science researcher, I like to
+use author-year formats. Other options include <code class="highlighter-rouge">numeric</code> and <code class="highlighter-rouge">alphabetic</code>, if
+you’re into that kind of thing.</li>
+  <li><code class="highlighter-rouge">\addbibresource{library.bib}</code>. This tells BibLaTeX where my references are
+stored. Inside the braces is the name of the .bib file we created above. As I
+said, this should go in the same directory as the .tex file we’re creating
+right now.</li>
+</ol>
+
+<p>And that’s it. <code class="highlighter-rouge">biblatex</code> has a bunch of options to customize the way your
+citations and references section look, so if you want to tweak things to look
+just right, take a look at the
+<a href="http://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf">biblatex documentation</a>.
+Otherwise, let’s move on to how to actually cite things in our paper.</p>
+
+<h3 id="citing-things-in-tex">Citing Things in .tex</h3>
+
+<p>The most important thing to know when citing a paper from your .bib file is its
+cite key. That is the first string after the opening { of the reference. For
+example, the cite key for the first article in my .bib file is
+<code class="highlighter-rouge">ackoff\_management\_1961</code>. The cite key is how biblatex identifies which
+reference you are referring to.</p>
+
+<p>Citing a paper is very simple and consistent. Biblatex offers just about every
+option you could need for citing, but all of them work the exact same way:
+<code class="highlighter-rouge">\command{}</code> with a list of cite keys inside the braces. Here are some of the
+commands, and what they do:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">\autocite{}</code>. This will be your most used. This will create parenthetical
+citations if the style calls for it (like most author-year styles do), or
+include just the number if that’s what the style wants</li>
+  <li><code class="highlighter-rouge">\textcite{}</code>. This is another favorite. This one is used when you want the
+author(s)’ name(s) in the body of your document. For example, if I wanted
+“Achoff (1961) said that…” in my paper, I could just used
+<code class="highlighter-rouge">\textcite{ackoff\_management\_1961} said that...</code>. This way if my citation
+style changes, the citation is always done correctly.</li>
+  <li><code class="highlighter-rouge">\citeyear</code> and <code class="highlighter-rouge">\citeauthor</code> can be used when you want to cite just the
+year or author, respectively.</li>
+</ul>
+
+<p>There are dozens of other commands available in biblatex, but these are the most
+commonly used (in my experience).</p>
+
+<p>At the end of your document, you probably want to print a bibliography or
+references section. This is done with the <code class="highlighter-rouge">\printbibliography</code> command.</p>
+
+<p>So let’s look at an example, using the .bib from above as our bibliography. In
+this case, I’ve named it <code class="highlighter-rouge">blog.bib</code>.</p>
+
+<script src="https://gist.github.com/rschuetzler/eb448d4943a9d63e4096.js"></script>
+
+<p>You can see a couple things here that we haven’t talked about yet.</p>
+
+<ol>
+  <li><strong>Multiple citations</strong>. Sometimes you need to cite a few papers at once. For
+that you can just use a comma to separate the cite keys. List them all in the
+same cite command and you’ll have them all together.</li>
+  <li><strong>Leaving citations out</strong>. If you notice in my .bib file, I have a citation
+to a Bonini paper that does not appear anywhere in the .tex document. If a
+reference is not cited, it is left out of the reference section. This means
+that you can have one giant .bib file containing every reference to every
+paper you have ever seen, read, thought about, or heard of. It might make it
+a bit tougher to find what you’re looking for, but it won’t cause an
+explosion in your references section.</li>
+</ol>
+
+<p>Well, I think that about covers it. You now have the tools you need to
+automatically generate a bibliography as you are writing your master works. Next
+time we’ll cover how to insert figures and, if you’re lucky, tables.</p>
+
+<p><a href="http://www.schuetzler.net/blog/latex-for-researchers-pt-3-figures/">Continue to Part 3: Figures</a></p>
+
+  </div><a class="u-url" href="/blog/latex-for-researchers-pt-2/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Schuetzler.net</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Schuetzler.net</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
