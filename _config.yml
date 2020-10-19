@@ -1,7 +1,7 @@
 title: Schuetzler.net
 # email: rschuet gmail com
 description: >- # this means to ignore newlines until "baseurl:"
-  Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Omaha metropolitan area.
+  Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.
 baseurl: "" # the subpath of your site, e.g. /blog
 root: /
 permalink: /blog/:title/
