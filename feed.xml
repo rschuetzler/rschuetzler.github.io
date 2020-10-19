@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-10-19T02:45:53+00:00</updated><id>/feed.xml</id><title type="html">Schuetzler.net</title><subtitle>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</subtitle><entry><title type="html">Using Discourse.org for a class discussion board</title><link href="/blog/creating-class-community-with-discourse/" rel="alternate" type="text/html" title="Using Discourse.org for a class discussion board" /><published>2019-05-10T00:00:00+00:00</published><updated>2019-05-10T00:00:00+00:00</updated><id>/blog/creating-class-community-with-discourse</id><content type="html" xml:base="/blog/creating-class-community-with-discourse/">&lt;p&gt;For the past two semesters I have been using &lt;a href=&quot;https://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt; for my class discussion board. I started using it mainly due to the restricted nature of Canvas’s built-in discussion boards, which are terribly designed for actual discussion. Using Discourse, I’m able to have real conversations with my class, and my students are encouraged to interact with each other.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-10-19T03:04:29+00:00</updated><id>/feed.xml</id><title type="html">Schuetzler.net</title><subtitle>Homepage of Dr. Ryan Schuetzler, one of the top professors of information systems in the greater Provo metropolitan area.</subtitle><entry><title type="html">How to disable Pi Hole for specific devices</title><link href="/blog/disable-pihole-for-some-devices/" rel="alternate" type="text/html" title="How to disable Pi Hole for specific devices" /><published>2020-10-18T00:00:00+00:00</published><updated>2020-10-18T00:00:00+00:00</updated><id>/blog/disable-pihole-for-some-devices</id><content type="html" xml:base="/blog/disable-pihole-for-some-devices/">&lt;p&gt;&lt;a href=&quot;https://pi-hole.net/&quot;&gt;Pi Hole&lt;/a&gt; is awesome for blocking ads on all devices on your local network, but sometimes it gets in the way. Sure, you can log in and disable it temporarily, but for some people that’s too much work. Thankfully, updates in the newest version of Pi Hole allow you to turn it off for specific devices. For example, I’ve disabled blocking on one phone in my house so it can freely click on tracker links and avoid getting blocked by those annoying websites with ad-block detectors.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Devices to be blocked must have a static IP address (assigned at the router, DHCP server, or device level)&lt;/li&gt;
+  &lt;li&gt;Pi-hole v5.1 or greater (I think, I know it’s not available pre-v5)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In the Pi-hole web GUI, go to Group Management, then Groups&lt;/li&gt;
+  &lt;li&gt;Create a new group. You can call it whatever you want (I called it “Unblocked”)&lt;/li&gt;
+  &lt;li&gt;Still under Group Management, go to Clients and find the IP address of the device you want to unblock. You can create a comment to remember which device it is if you want.&lt;/li&gt;
+  &lt;li&gt;Add the client, then assign it to the Unblocked group.&lt;/li&gt;
+  &lt;li&gt;Go to the Adlists under Group Management and check the group assignment for each list in your adlist. You can select all, some, or none of the lists to be applied to your Unblocked group.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it! You don’t need to change anything on your device. By default, the new settings should start working immediately, and you can view all the ads you want on devices in the Unblocked group.&lt;/p&gt;</content><author><name></name></author><summary type="html">Pi Hole is awesome for blocking ads on all devices on your local network, but sometimes it gets in the way. Sure, you can log in and disable it temporarily, but for some people that’s too much work. Thankfully, updates in the newest version of Pi Hole allow you to turn it off for specific devices. For example, I’ve disabled blocking on one phone in my house so it can freely click on tracker links and avoid getting blocked by those annoying websites with ad-block detectors.</summary></entry><entry><title type="html">Using Discourse.org for a class discussion board</title><link href="/blog/creating-class-community-with-discourse/" rel="alternate" type="text/html" title="Using Discourse.org for a class discussion board" /><published>2019-05-10T00:00:00+00:00</published><updated>2019-05-10T00:00:00+00:00</updated><id>/blog/creating-class-community-with-discourse</id><content type="html" xml:base="/blog/creating-class-community-with-discourse/">&lt;p&gt;For the past two semesters I have been using &lt;a href=&quot;https://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt; for my class discussion board. I started using it mainly due to the restricted nature of Canvas’s built-in discussion boards, which are terribly designed for actual discussion. Using Discourse, I’m able to have real conversations with my class, and my students are encouraged to interact with each other.&lt;/p&gt;
 
 &lt;p&gt;I recently gave a presentation at &lt;a href=&quot;https://www.unomaha.edu/news/events/2019/05/2019-digital-learning-showcase.php&quot;&gt;UNO’s Digital Learning Showcase&lt;/a&gt; on how I use the discussion board in class to create a community and the many ways it’s better at fostering engagement in my online classes compared to the kinda terrible built-in boards on Canvas. Check out my slides below.&lt;/p&gt;
 
@@ -1038,56 +1056,4 @@ everyone can see them.&lt;/li&gt;
 run into problems as the project progresses, I can update this guide as we
 figure out how to deal with them. This will be the first time for most of us
 using Git for any sort of collaboration, so it’ll be a learning adventure for
-all of us.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have been trying for a few years to get my coworkers to work on projects together using Git repositories for version control, and usually to varying levels of success. I finally took the time to hammer out a beginner’s guide to collaborating with git, using Github for Windows as the software interface and Bitbucket as the online repo host.</summary></entry><entry><title type="html">Why I left Qiqqa for Mendeley</title><link href="/blog/why-i-love-mendeley/" rel="alternate" type="text/html" title="Why I left Qiqqa for Mendeley" /><published>2013-11-02T00:00:00+00:00</published><updated>2013-11-02T00:00:00+00:00</updated><id>/blog/why-i-love-mendeley</id><content type="html" xml:base="/blog/why-i-love-mendeley/">&lt;p&gt;I love software that makes my life easier. As an academic, I do a lot of
-reading. I read a lot (I mean a lot) of PDF articles on a huge variety of
-topics. I have a virtual stack of papers that would probably reach half-way to
-Phoenix and cost a forest if I printed them all out. Of course I’ll never get to
-read them all, but just in case.&lt;/p&gt;
-
-&lt;p&gt;So as a new student of academia, I started looking for a good way to organize my
-files. Surely there must be a better system than storing random PDFs in whatever
-nonsensical names their publishers give them in a million places on my hard
-drive. That’s when I first discovered &lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt;. It
-was a dream come true.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Mendeley is a cross-platform software program for managing research. It can
-consolidate files into a single directory, manage metadata for each article,
-search the metadata, tag and highlight PDFs, and a whole bunch
-more. Additionally it can sync all that data to a BibTeX file for easy inclusion
-in a paper. On top of all this, it provides a cloud syncing functionality to
-keep your information consistent across devices.&lt;/p&gt;
-
-&lt;p&gt;After a few months with Mendeley I discovered
-&lt;a href=&quot;http://www.qiqqa.com&quot;&gt;Qiqqa&lt;/a&gt;. Qiqqa was sexy. Qiqqa was newer. Qiqqa had more
-features. Qiqqa could highlight with different colors. Qiqqa could OCR my
-documents to allow me to search ugly old PDFs. Qiqqa had neat brainstorming
-tools (that it turns out I never ever used). The biggest reason I switched is
-that I like software that is being actively developed, and Qiqqa was. Mendeley
-seemed to have stagnated, with no real new features in the months I’d been using
-it. Qiqqa had a new release every month with cool stuff that I could actually
-use.&lt;/p&gt;
-
-&lt;p&gt;But after spending almost 2 years as a Qiqqa user, I’m switching back. I was a
-Qiqqa Premium user for over a year, but when my premium subscription ran out, I
-felt it was time to move on. The interface felt too bloated. The features I
-loved (like multi-color highlights) were just not enough to keep me there. I
-also felt that in the years I’d been using it, Qiqqa had spent more time
-developing features I didn’t care about and added fewer and fewer things I did.&lt;/p&gt;
-
-&lt;p&gt;So I’m back with Mendeley now. UA has purchased a site license to give me extra
-storage and a few cool features. It’s still not perfect, but it’s good enough
-for free. In case Mendeley is listening, here are some killer features I want,
-in order of awesomeness:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Get smarter about gathering metadata. I have to correct the data about 75% of
-the time.&lt;/li&gt;
-  &lt;li&gt;Make a Papers-esque ability to grab BibTeX keys from
-anywhere. Writing a paper in LaTeX and inserting citations could be seamlessly
-integrated with my synced BibTex file.&lt;/li&gt;
-  &lt;li&gt;Highlights should appear in the notes section&lt;/li&gt;
-  &lt;li&gt;Qiqqa’s hierarchical tags were pretty neat. The ability to
-drill down within a set of tagged documents is a cool feature.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">I love software that makes my life easier. As an academic, I do a lot of reading. I read a lot (I mean a lot) of PDF articles on a huge variety of topics. I have a virtual stack of papers that would probably reach half-way to Phoenix and cost a forest if I printed them all out. Of course I’ll never get to read them all, but just in case.</summary></entry></feed>
+all of us.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have been trying for a few years to get my coworkers to work on projects together using Git repositories for version control, and usually to varying levels of success. I finally took the time to hammer out a beginner’s guide to collaborating with git, using Github for Windows as the software interface and Bitbucket as the online repo host.</summary></entry></feed>
