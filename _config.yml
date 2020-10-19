@@ -24,6 +24,16 @@ plugins:
   - jekyll-asciidoc
   - jekyll-seo-tag
   - jekyll-paginate
+
+asciidoc: {}
+asciidoctor:
+  basedir: :docdir
+  safe: unsafe
+  attributes:
+    - idseparator=_
+    - source-highlighter=coderay
+    - icons=font
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -43,4 +53,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - Rakefile
